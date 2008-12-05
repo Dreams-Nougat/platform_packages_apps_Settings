@@ -1,0 +1,11 @@
+Revision: de2d9f5f109265873196f1615e1f3546b114aaa7
+Base-for-patch-set: 1
+File: res/values/strings.xml
+
+414
+Fri Dec 05 00:56:44 2008 +0000
+Author: John Huang <1000718@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: z4ba3bb60cb70cf316a280218a0375870
+Bytes: 90
+Not sure why all these strings were removed.  Are they unused?  Or was this a merge issue?
+
