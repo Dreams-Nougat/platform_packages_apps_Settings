@@ -9,3 +9,11 @@ UUID: z4ba3bb60cb70cf316a280218a0375870
 Bytes: 90
 Not sure why all these strings were removed.  Are they unused?  Or was this a merge issue?
 
+414
+Wed Dec 17 09:59:03 2008 +0000
+Author: Stefan Schülein <1000095@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: z9964e94d90c15cfb838dbc80a8c228e0
+Bytes: 178
+These strings are moved to /package/apps/Phone/. Due to CDMA implementation we think it makes more sense to have them located there. It will be implemented in the next delivery.
+
+
