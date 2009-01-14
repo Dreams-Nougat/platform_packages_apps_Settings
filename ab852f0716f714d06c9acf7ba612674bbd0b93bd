@@ -1,0 +1,18 @@
+Revision: ab852f0716f714d06c9acf7ba612674bbd0b93bd
+Patch-set: 2
+File: src/com/android/settings/RadioInfo.java
+
+572
+Wed Jan 14 20:23:29 2009 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: z7c8f69aaac1e7b992e0e0fff6fedfda4
+Bytes: 6
+Remove
+
+576
+Wed Jan 14 20:23:29 2009 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: z118d821447b02139c23cbab16e83cd52
+Bytes: 18
+white space at EOL
+
