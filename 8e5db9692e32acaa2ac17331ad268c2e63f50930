@@ -1,0 +1,11 @@
+Revision: 8e5db9692e32acaa2ac17331ad268c2e63f50930
+Patch-set: 1
+File: src/com/android/settings/DefaultRingtonePreference.java
+
+56
+Thu May 21 03:30:18 2009 +0000
+Author: Romain Guy <1001146@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAATn///3c=
+Bytes: 39
+Please add spaces around the | operator
+
