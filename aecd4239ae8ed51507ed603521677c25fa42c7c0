@@ -1,0 +1,18 @@
+Revision: aecd4239ae8ed51507ed603521677c25fa42c7c0
+Patch-set: 1
+File: src/com/android/settings/widget/SettingsAppWidgetProvider.java
+
+37
+Mon Sep 21 22:55:26 2009 +0000
+Author: Kenny Root <1000748@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAm3///Yk=
+Bytes: 44
+Is this import needed? Doesn't look like it.
+
+344
+Mon Sep 21 22:55:26 2009 +0000
+Author: Kenny Root <1000748@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAm3///Yo=
+Bytes: 35
+Looks like some tabs snuck in here.
+
