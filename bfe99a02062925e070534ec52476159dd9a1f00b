@@ -1,0 +1,18 @@
+Revision: bfe99a02062925e070534ec52476159dd9a1f00b
+Patch-set: 1
+File: src/com/android/settings/wifi/AdvancedSettings.java
+
+315
+Tue Apr 20 17:11:55 2010 +0000
+Author: Irfan Sheriff <1003344@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAwn///lo=
+Bytes: 52
+not sure if we need this since we access four octets
+
+316
+Tue Apr 20 17:11:55 2010 +0000
+Author: Irfan Sheriff <1003344@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAwn///lk=
+Bytes: 13
+do we need \n
+
