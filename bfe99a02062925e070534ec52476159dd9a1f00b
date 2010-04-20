@@ -9,10 +9,26 @@ UUID: AAAAwn///lo=
 Bytes: 52
 not sure if we need this since we access four octets
 
+315
+Tue Apr 20 17:43:17 2010 +0000
+Author: Mike Lockwood <1000830@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAAwn///lo=
+UUID: AAAAwn///lY=
+Bytes: 133
+Yes, we do need it because Java doesn't have unsigned int types.  So if the high bit is set, Java interprets it as a negative number.
+
 316
 Tue Apr 20 17:11:55 2010 +0000
 Author: Irfan Sheriff <1003344@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: AAAAwn///lk=
 Bytes: 13
 do we need \n
+
+316
+Tue Apr 20 17:43:17 2010 +0000
+Author: Mike Lockwood <1000830@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAAwn///lk=
+UUID: AAAAwn///lU=
+Bytes: 40
+No, we don't need it - I'll take it out.
 
