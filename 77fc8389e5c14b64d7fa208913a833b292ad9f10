@@ -1,0 +1,35 @@
+Revision: 77fc8389e5c14b64d7fa208913a833b292ad9f10
+Patch-set: 1
+File: src/com/android/settings/LanguageSettings.java
+
+235
+Mon May 17 18:21:01 2010 +0000
+Author: Michael Chan <1002598@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzH///jQ=
+Bytes: 245
+This comment applies to every file in this patch.  It's best not to repeat any code. How about the following pattern?
+
+If (mDialog == null) {
+    mDialog = new AlertDialog.Builder().setXXX().create();
+}
+
+mDialog.setMessage(...);
+
+mDialog.show();
+
+File: src/com/android/settings/bluetooth/CachedBluetoothDevice.java
+
+373
+Mon May 17 18:21:01 2010 +0000
+Author: Michael Chan <1002598@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzH///jM=
+Bytes: 69
+What if the dialog already exist? Does it need to be dismissed first?
+
+388
+Mon May 17 18:21:01 2010 +0000
+Author: Michael Chan <1002598@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzH///jw=
+Bytes: 41
+It's safer to call super.finalize() last.
+
