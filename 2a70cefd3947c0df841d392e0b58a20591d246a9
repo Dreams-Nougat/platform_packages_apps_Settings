@@ -1,0 +1,11 @@
+Revision: 2a70cefd3947c0df841d392e0b58a20591d246a9
+Patch-set: 2
+File: res/layout/master_clear_primary.xml
+
+26
+Mon May 17 22:47:43 2010 +0000
+Author: Romain Guy <1001146@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzH///fE=
+Bytes: 25
+The height should be 0dip
+
