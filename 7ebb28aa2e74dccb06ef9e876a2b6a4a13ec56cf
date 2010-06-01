@@ -1,0 +1,82 @@
+Revision: 7ebb28aa2e74dccb06ef9e876a2b6a4a13ec56cf
+Patch-set: 2
+File: res/xml/settings.xml
+
+23
+Tue Jun 01 21:39:27 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX///1E=
+Bytes: 167
+How do you assume that these should be at the top of the list? Not that they shouldn't, but would they always need to be the most visible settings screen for the user?
+
+27
+Tue Jun 01 21:39:27 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX///0s=
+Bytes: 161
+Please reserve the action naming convention "android.settings.*" to those that are documented in the Settings provider API. Use "com.android.settings.*" instead.
+
+34
+Tue Jun 01 21:39:27 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX///0o=
+Bytes: 161
+Please reserve the action naming convention "android.settings.*" to those that are documented in the Settings provider API. Use "com.android.settings.*" instead.
+
+File: src/com/android/settings/IconPreferenceScreen.java
+
+54
+Tue Jun 01 21:39:27 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX///1A=
+Bytes: 172
+Second sentence doesn't seem relevant to this function. It should be about setting the icon for the ImageView contained in the layout, or simply remove the second sentence.
+
+File: src/com/android/settings/Settings.java
+
+53
+Tue Jun 01 21:39:27 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX///08=
+Bytes: 19
+line too long > 100
+
+54
+Tue Jun 01 21:39:27 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX///04=
+Bytes: 19
+Line too long > 100
+
+File: src/com/android/settings/Utils.java
+
+154
+Tue Jun 01 21:39:27 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX///00=
+Bytes: 20
+Line too long, > 100
+
+161
+Tue Jun 01 21:39:27 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX///0w=
+Bytes: 20
+Line too long, > 100
+
+File: tests/src/com/android/settings/SettingsHookTests.java
+
+55
+Tue Jun 01 21:39:27 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX///0k=
+Bytes: 161
+Please reserve the action naming convention "android.settings.*" to those that are documented in the Settings provider API. Use "com.android.settings.*" instead.
+
+56
+Tue Jun 01 21:39:27 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX///0g=
+Bytes: 161
+Please reserve the action naming convention "android.settings.*" to those that are documented in the Settings provider API. Use "com.android.settings.*" instead.
+
