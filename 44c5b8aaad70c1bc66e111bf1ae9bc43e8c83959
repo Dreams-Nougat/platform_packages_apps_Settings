@@ -1,0 +1,18 @@
+Revision: 44c5b8aaad70c1bc66e111bf1ae9bc43e8c83959
+Patch-set: 3
+File: tests/AndroidManifest.xml
+
+34
+Thu Jun 10 15:57:50 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX//+24=
+Bytes: 46
+You forgot to change this to "com.android...."
+
+42
+Thu Jun 10 15:57:50 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX//+20=
+Bytes: 45
+You forgot to change this to "com.android..."
+
