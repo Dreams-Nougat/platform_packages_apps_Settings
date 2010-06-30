@@ -1,0 +1,11 @@
+Revision: 499b844d8305d104421bf7427fd5f449728003d3
+Patch-set: 2
+File: src/com/android/settings/ApnEditor.java
+
+449
+Wed Jun 30 17:57:44 2010 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAAzX//+2k=
+Bytes: 72
+These 4 lines are repeated. Could they just be moved into getErrorMsg()?
+
