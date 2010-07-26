@@ -1,0 +1,11 @@
+Revision: c1eced8a2cf709b57d45f03191eb25642f34cd4f
+Patch-set: 1
+File: src/com/android/settings/TetherSettings.java
+
+160
+Mon Jul 26 21:34:07 2010 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA3X///74=
+Bytes: 52
+Style nitpick: please wrap this line to 100 columns.
+
