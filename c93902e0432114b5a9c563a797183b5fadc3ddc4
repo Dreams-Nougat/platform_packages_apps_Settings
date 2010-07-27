@@ -1,0 +1,11 @@
+Revision: c93902e0432114b5a9c563a797183b5fadc3ddc4
+Patch-set: 1
+File: src/com/android/settings/TetherSettings.java
+
+161
+Tue Jul 27 16:40:05 2010 +0000
+Author: Christian Mehlmauer <1003856@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA3X///0c=
+Bytes: 92
+Please replace the tabs(red arrows) with spaces according to the android coding style guide.
+
