@@ -1,0 +1,11 @@
+Revision: 69aa11b5388b53c5a4c637566f62a9cb7b0d80ab
+Patch-set: 2
+File: src/com/android/settings/ZoneList.java
+
+87
+Tue Aug 03 17:25:00 2010 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA33///e0=
+Bytes: 38
+line is too long - 100 char max please
+
