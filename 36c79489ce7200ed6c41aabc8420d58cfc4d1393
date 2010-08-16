@@ -1,0 +1,20 @@
+Revision: 36c79489ce7200ed6c41aabc8420d58cfc4d1393
+Patch-set: 1
+File: src/com/android/settings/ProgressCategory.java
+
+29
+Mon Aug 16 17:14:59 2010 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA4n///S8=
+Bytes: 40
+Trailing whitespace (also on line below)
+
+File: src/com/android/settings/bluetooth/BluetoothSettings.java
+
+192
+Mon Aug 16 17:14:59 2010 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA4n///S4=
+Bytes: 36
+Fails to compile (missing semicolon)
+
