@@ -9,3 +9,14 @@ UUID: AAAA4n///Fo=
 Bytes: 264
 What is the purpose of this change? How does it fix a memory leak? I can't find any other Android code that manipulates the previous View in the onBindView() method, nor any recommendation in the Android docs that this is necessary. How did you discover this leak?
 
+46
+Tue Aug 17 23:48:12 2010 +0000
+Author: Thiago Rocha <1004266@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAA4n///Fo=
+UUID: AAAA4n///E0=
+Bytes: 538
+Hi. Every time a scan begins, a device is found, or a scan ends a new view is passed to onBindView. The old view is left in memory with the animation turned on. So, if you keep scanning for devices memory use will only increase as the number of views increase.
+The animation will be turned off and the memory released if you change the visibility to View.GONE or View.INVISIBLE. In that case you can keep track of the old view and toggle its visibility.
+
+I discovered using proper hardware because emulator doesn't have bluetooth support.
+
