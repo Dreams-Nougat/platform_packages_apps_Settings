@@ -1,0 +1,18 @@
+Revision: 4a70e8d61e2c082fb7a42a250cd52261a8ed9103
+Patch-set: 3
+File: src/com/android/settings/ProgressCategory.java
+
+46
+Tue Aug 17 15:17:37 2010 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA4n///J8=
+Bytes: 66
+Minor style issue: Android style uses a space between "if" and "("
+
+47
+Tue Aug 17 15:17:37 2010 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA4n///J4=
+Bytes: 84
+Minor style issue: Android style sets the opening brace on the same line as the "if"
+
