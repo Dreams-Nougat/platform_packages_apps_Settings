@@ -1,0 +1,11 @@
+Revision: d4cebee1e4b68e8b6c1e2ad8b82da6e2414f2e5b
+Patch-set: 4
+File: src/com/android/settings/ProgressCategory.java
+
+46
+Tue Aug 17 22:15:48 2010 +0000
+Author: Jake Hamby <1003544@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA4n///Fo=
+Bytes: 264
+What is the purpose of this change? How does it fix a memory leak? I can't find any other Android code that manipulates the previous View in the onBindView() method, nor any recommendation in the Android docs that this is necessary. How did you discover this leak?
+
