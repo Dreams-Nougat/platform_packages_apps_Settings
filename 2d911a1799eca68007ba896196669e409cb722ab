@@ -1,0 +1,32 @@
+Revision: 2d911a1799eca68007ba896196669e409cb722ab
+Patch-set: 1
+File: res/layout/vpn_connect_dialog_view.xml
+
+21
+Wed Oct 27 16:38:46 2010 +0000
+Author: Romain Guy <1001146@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA8H//+Tc=
+Bytes: 105
+No need to use a TableLayout, the EditText simply should have layout_width = 0dip and layout_weight = 1.0
+
+35
+Wed Oct 27 16:38:46 2010 +0000
+Author: Romain Guy <1001146@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA8H//+To=
+Bytes: 39
+This shouldn't be match_parent anymore.
+
+48
+Wed Oct 27 16:38:46 2010 +0000
+Author: Romain Guy <1001146@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA8H//+Tk=
+Bytes: 9
+Same here
+
+55
+Wed Oct 27 16:38:46 2010 +0000
+Author: Romain Guy <1001146@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA8H//+Tg=
+Bytes: 15
+Indent is wrong
+
