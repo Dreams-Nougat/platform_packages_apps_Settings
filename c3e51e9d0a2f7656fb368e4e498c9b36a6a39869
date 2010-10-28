@@ -1,0 +1,18 @@
+Revision: c3e51e9d0a2f7656fb368e4e498c9b36a6a39869
+Patch-set: 2
+File: src/com/android/settings/SettingsLicenseActivity.java
+
+82
+Thu Oct 28 14:59:42 2010 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA8H//+F4=
+Bytes: 31
+may as well create this on L80?
+
+83
+Thu Oct 28 14:59:42 2010 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA8H//+F8=
+Bytes: 6
+char[]
+
