@@ -1,0 +1,11 @@
+Revision: e168fad44b2e047356ee5637f662cf1871852627
+Patch-set: 1
+File: src/com/android/settings/AirplaneModeEnabler.java
+
+63
+Wed Dec 01 22:48:21 2010 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA9n//9/A=
+Bytes: 75
+Style issue: please use spaces instead of tabs for the indentation. Thanks!
+
