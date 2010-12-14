@@ -1,0 +1,11 @@
+Revision: 298e169c25c40fca1e5496dc799a6e6e4ccc23a9
+Patch-set: 4
+File: src/com/android/settings/AirplaneModeEnabler.java
+
+106
+Tue Dec 14 17:22:21 2010 +0000
+Author: bradfitz <1000269@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA+n///6Q=
+Bytes: 65
+Doesn't look like this even compiles.  Where's the closing brace?
+
