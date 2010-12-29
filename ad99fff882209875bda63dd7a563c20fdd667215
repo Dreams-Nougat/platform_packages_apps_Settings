@@ -1,0 +1,11 @@
+Revision: ad99fff882209875bda63dd7a563c20fdd667215
+Patch-set: 6
+File: src/com/android/settings/AirplaneModeEnabler.java
+
+106
+Wed Dec 29 23:29:09 2010 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA+3//+6w=
+Bytes: 76
+Another style issue (sorry): please use braces around the conditional block.
+
