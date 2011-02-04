@@ -9,6 +9,14 @@ UUID: AAAA+n///4c=
 Bytes: 98
 This seems excessive to me.  I would expect anything above 10% to be enough. Maybe 20% for safety.
 
+54
+Fri Feb 04 08:06:24 2011 +0000
+Author: Matthias Thomae <1004644@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAA+n///4c=
+UUID: AAAA+3//8WM=
+Bytes: 20
+Done, changed to 20%
+
 79
 Tue Dec 14 22:10:05 2010 +0000
 Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -25,12 +33,28 @@ In order to guarantee you have the most recent battery status, this should regis
 
 As written, there's a race condition since the code registers the receiver just before kicking off the erase.  Conceivably the callback to the receiver could be delayed, in which case battery data will be incorrect and you'll see an inappropriate message.
 
+187
+Fri Feb 04 08:06:24 2011 +0000
+Author: Matthias Thomae <1004644@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAA+n///4o=
+UUID: AAAA+3//8WE=
+Bytes: 4
+Done
+
 218
 Tue Dec 14 22:10:05 2010 +0000
 Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: AAAA+n///4k=
 Bytes: 46
 Suggest renaming this to updateBatteryState().
+
+218
+Fri Feb 04 08:06:24 2011 +0000
+Author: Matthias Thomae <1004644@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAA+n///4k=
+UUID: AAAA+3//8V8=
+Bytes: 4
+Done
 
 220
 Tue Dec 14 22:10:05 2010 +0000
@@ -39,6 +63,14 @@ UUID: AAAA+n///4w=
 Bytes: 73
 Please use constants defined in BatteryManager (EXTRA_LEVEL, EXTRA_SCALE)
 
+220
+Fri Feb 04 08:06:24 2011 +0000
+Author: Matthias Thomae <1004644@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAA+n///4w=
+UUID: AAAA+3//8Vw=
+Bytes: 4
+Done
+
 222
 Tue Dec 14 22:10:05 2010 +0000
 Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -46,10 +78,26 @@ UUID: AAAA+n///3k=
 Bytes: 117
 Suggest renaming/removing constant "DENOMINATOR" since it seems more like "convert to percentage" than a denominator.
 
+222
+Fri Feb 04 08:06:24 2011 +0000
+Author: Matthias Thomae <1004644@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAA+n///3k=
+UUID: AAAA+3//8Vs=
+Bytes: 4
+Done
+
 277
 Tue Dec 14 22:10:05 2010 +0000
 Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: AAAA+n///3o=
 Bytes: 90
 You shouldn't need this function if you use onPause()/onResume() to register the receiver.
+
+277
+Fri Feb 04 08:06:24 2011 +0000
+Author: Matthias Thomae <1004644@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAA+n///3o=
+UUID: AAAA+3//8Vo=
+Bytes: 4
+Done
 
