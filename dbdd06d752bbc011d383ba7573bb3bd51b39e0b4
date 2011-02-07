@@ -1,0 +1,11 @@
+Revision: dbdd06d752bbc011d383ba7573bb3bd51b39e0b4
+Patch-set: 1
+File: src/com/android/settings/RadioInfo.java
+
+800
+Mon Feb 07 18:52:01 2011 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA+3//5t8=
+Bytes: 47
+Lets add and else clause stating "unknown apn"?
+
