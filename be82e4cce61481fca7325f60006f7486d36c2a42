@@ -1,0 +1,32 @@
+Revision: be82e4cce61481fca7325f60006f7486d36c2a42
+Patch-set: 2
+File: src/com/android/settings/BatteryInfo.java
+
+98
+Tue Apr 05 16:30:10 2011 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA/n///y8=
+Bytes: 3
+tab
+
+107
+Tue Apr 05 16:30:10 2011 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA/n///y4=
+Bytes: 24
+tabs on all these lines.
+
+155
+Tue Apr 05 16:30:10 2011 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA/n///yw=
+Bytes: 22
+line too long and tabs
+
+158
+Tue Apr 05 16:30:10 2011 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA/n///y0=
+Bytes: 60
+line too long.  Replace tabs with spaces in all these lines.
+
