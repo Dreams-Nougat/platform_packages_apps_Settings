@@ -1,0 +1,18 @@
+Revision: 5654420791c0c975c60b1b59562291f46964c793
+Patch-set: 2
+File: tests/src/com/android/settings/wifi/FWifiDialogTooLongTests.java
+
+25
+Tue Apr 19 23:16:14 2011 +0000
+Author: Xia Wang <1005044@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA/n//+Iw=
+Bytes: 37
+WifiDialogTests sounds a better name.
+
+28
+Tue Apr 19 23:16:14 2011 +0000
+Author: Xia Wang <1005044@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA/n//+Is=
+Bytes: 25
+com.android.settings.wifi
+
