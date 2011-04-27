@@ -1,0 +1,29 @@
+Revision: baf9a3819fadd1d8abdc23b11dd788c77897313f
+Patch-set: 1
+File: src/com/android/settings/wifi/AccessPoint.java
+
+48
+Wed Apr 27 20:59:50 2011 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA/3///q8=
+Bytes: 138
+the fact you need this again suggests we really should do this check centrally and have it in part of the broadcast.
+
+Need IPv6 check too.
+
+92
+Wed Apr 27 20:59:50 2011 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA/3///q4=
+Bytes: 114
+We're moving away from passing addresses as ints.  Once you get InetAddresses, just use addr.isLinkLocalAddress().
+
+File: src/com/android/settings/wifi/WifiSettings.java
+
+265
+Wed Apr 27 20:59:50 2011 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAA/3///q0=
+Bytes: 48
+reconnect is not quite the right action.  renew?
+
