@@ -9,3 +9,11 @@ UUID: AAAA/3///L0=
 Bytes: 182
 This is reducing the power after bringing up wifi hotspot - so there will be a short period (however small) where power will be high. is this ok ? or should this be happening earlier
 
+206
+Mon May 02 23:26:55 2011 +0000
+Author: anshulj@codeaurora.org <1005066@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAA/3///L0=
+UUID: AAAA/3///K4=
+Bytes: 247
+This should be happening earlier but then if the wifi hotspot enabling fails then the setTransmitPower API would need to be called again to restore the default power. Another question is whether to check if setting the transmit power itself fails.
+
