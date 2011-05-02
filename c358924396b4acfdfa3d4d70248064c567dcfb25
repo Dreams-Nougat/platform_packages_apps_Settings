@@ -17,3 +17,13 @@ UUID: AAAA/3///K4=
 Bytes: 247
 This should be happening earlier but then if the wifi hotspot enabling fails then the setTransmitPower API would need to be called again to restore the default power. Another question is whether to check if setting the transmit power itself fails.
 
+206
+Mon May 02 23:32:37 2011 +0000
+Author: Irfan Sheriff <1003344@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAA/3///K4=
+UUID: AAAA/3///KY=
+Bytes: 261
+yeah, that should happen at WIFI_AP_STATE_FAILED or in the default here.
+
+If the transmit power itself fails, potentially the soft Ap can be turned off and an error reported to the user - but that depends on whether such a thing is really required by regulation
+
