@@ -1,0 +1,18 @@
+Revision: 9a97882457e31713dd1f91f05943d4e854565066
+Patch-set: 3
+File: src/com/android/settings/applications/RunningState.java
+
+759
+Thu May 26 16:16:21 2011 +0000
+Author: Dianne Hackborn <1000559@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAABBn///h8=
+Bytes: 59
+Create this lazily, only if we need to put something in it.
+
+793
+Thu May 26 16:16:21 2011 +0000
+Author: Dianne Hackborn <1000559@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAABBn///h0=
+Bytes: 57
+Use a for loop to avoid creation of a temporary iterator.
+
