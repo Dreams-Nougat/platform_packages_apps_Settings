@@ -1,0 +1,20 @@
+Revision: 6147d42e293a14ae8c66ea18645eca9c15fadb9f
+Patch-set: 3
+File: src/com/android/settings/MasterClear.java
+
+210
+Sat Jun 18 00:23:43 2011 +0000
+Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAABDX///zo=
+Bytes: 300
+To be on the safe side, this should probably be initially false until we know the real battery state.
+
+It would be better to query the state directly from BatteryService unless the broadcast is a sticky one - in which case you'll get an immediate callback without the battery status having to change.
+
+238
+Sat Jun 18 00:23:43 2011 +0000
+Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAABDX///zk=
+Bytes: 83
+This should also check mReceiverRegistered to avoid registering the receiver twice.
+
