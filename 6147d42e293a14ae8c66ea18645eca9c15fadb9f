@@ -11,10 +11,32 @@ To be on the safe side, this should probably be initially false until we know th
 
 It would be better to query the state directly from BatteryService unless the broadcast is a sticky one - in which case you'll get an immediate callback without the battery status having to change.
 
+210
+Tue Jun 21 15:03:01 2011 +0000
+Author: Matthias Thomae <1004644@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAABDX///zo=
+UUID: AAABDX///bE=
+Bytes: 291
+The broadcast is sticky so we should get immediate callbacks, so the code should be safe as is. See:
+frameworks/base/services/java/com/android/server/BatteryService.java:
+    private final void sendIntent() {   
+…
+        ActivityManagerNative.broadcastStickyIntent(intent, null);   
+…
+}
+
 238
 Sat Jun 18 00:23:43 2011 +0000
 Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: AAABDX///zk=
 Bytes: 83
 This should also check mReceiverRegistered to avoid registering the receiver twice.
+
+238
+Tue Jun 21 15:03:01 2011 +0000
+Author: Matthias Thomae <1004644@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAABDX///zk=
+UUID: AAABDX///bA=
+Bytes: 4
+Done
 
