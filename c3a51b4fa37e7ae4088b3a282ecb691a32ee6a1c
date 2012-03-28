@@ -1,0 +1,69 @@
+Revision: c3a51b4fa37e7ae4088b3a282ecb691a32ee6a1c
+Patch-set: 1
+File: src/com/android/settings/deviceinfo/Memory.java
+
+139
+Wed Mar 28 18:54:25 2012 +0000
+Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAEZn///+8=
+Bytes: 140
+Remove the if, see below.
+
+Calling this *before* onStorageStateChanged() will make sure the state is correct when the preference is updated.
+
+222
+Wed Mar 28 18:54:25 2012 +0000
+Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAEZn////A=
+Bytes: 94
+We should set that flag when the device is mounted too.
+Rename to setMountOperationInProgress?
+
+File: src/com/android/settings/deviceinfo/StorageVolumePreferenceCategory.java
+
+77
+Wed Mar 28 18:54:25 2012 +0000
+Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAEZn///+o=
+Bytes: 33
+This method does not seem needed.
+
+82
+Wed Mar 28 18:54:25 2012 +0000
+Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAEZn///+4=
+Bytes: 148
+This should immediately trigger an update of the enabled state.
+
+Call updatePreferencesFromState() or actually not, if you swap the lines in Memory.
+
+258
+Wed Mar 28 18:54:25 2012 +0000
+Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAEZn////M=
+Bytes: 76
+These lines should be removed. This is handled by updatePreferencesFromState
+
+287
+Wed Mar 28 18:54:25 2012 +0000
+Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAEZn///+0=
+Bytes: 113
+The text should not be affected. Only the enabled state:
+
+mMountTogglePreference.setEnabled(!mUnmountInProgress);
+
+295
+Wed Mar 28 18:54:25 2012 +0000
+Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAEZn///+w=
+Bytes: 4
+idem
+
+301
+Wed Mar 28 18:54:25 2012 +0000
+Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAEZn///+s=
+Bytes: 16
+No, always false
+
