@@ -53,6 +53,18 @@ The text should not be affected. Only the enabled state:
 
 mMountTogglePreference.setEnabled(!mUnmountInProgress);
 
+287
+Thu Mar 29 11:09:44 2012 +0000
+Author: Andrii Beregovenko <1010597@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAEZn///+0=
+UUID: AAAEdH////4=
+Bytes: 147
+Did you read patch description?
+Do you understand what is patch about?
+Do you try to reproduce this kind of sutiation?
+
+Let me mark this way as (1)
+
 295
 Wed Mar 28 18:54:25 2012 +0000
 Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -60,10 +72,26 @@ UUID: AAAEZn///+w=
 Bytes: 4
 idem
 
+295
+Thu Mar 29 11:09:44 2012 +0000
+Author: Andrii Beregovenko <1010597@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAEZn///+w=
+UUID: AAAEdH////0=
+Bytes: 20
+Mark this way as (2)
+
 301
 Wed Mar 28 18:54:25 2012 +0000
 Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: AAAEZn///+s=
 Bytes: 16
 No, always false
+
+301
+Thu Mar 29 11:09:44 2012 +0000
+Author: Andrii Beregovenko <1010597@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAEZn///+s=
+UUID: AAAEdH////w=
+Bytes: 20
+Mark this way as (3)
 
