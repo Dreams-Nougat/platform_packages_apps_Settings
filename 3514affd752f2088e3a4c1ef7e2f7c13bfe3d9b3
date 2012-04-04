@@ -1,0 +1,11 @@
+Revision: 3514affd752f2088e3a4c1ef7e2f7c13bfe3d9b3
+Patch-set: 2
+File: src/com/android/settings/DeviceInfoSettings.java
+
+34
+Wed Apr 04 04:47:07 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAEh3////8=
+Bytes: 63
+This seem to be missing in master branch, maybe not merged yet?
+
