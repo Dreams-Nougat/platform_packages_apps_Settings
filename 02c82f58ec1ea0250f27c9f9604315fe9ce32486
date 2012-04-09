@@ -1,0 +1,11 @@
+Revision: 02c82f58ec1ea0250f27c9f9604315fe9ce32486
+Patch-set: 1
+File: src/com/android/settings/wifi/WifiSettings.java
+
+465
+Mon Apr 09 16:36:08 2012 +0000
+Author: Irfan Sheriff <1003344@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAEgn///vs=
+Bytes: 43
+multi-line if statements need braces around
+
