@@ -17,3 +17,19 @@ UUID: AAAEiH////8=
 Bytes: 64
 Yes, it is in https://android-review.googlesource.com/#/c/31065/
 
+80
+Sun Apr 22 16:28:42 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAE6n////4=
+Bytes: 308
+Is it not better to have 3 int constants to represent SE Linux status in android.os.SELinux?
+Say:
+
+    public static final int STATUS_DISABLED = -1;
+    public static final int STATUS_PERMISSIVE = 0;
+    public static final int STATUS_ENFORCING = 1;
+
+
+
+and have SELinux.getSELinuxStatus() return one of them?
+
