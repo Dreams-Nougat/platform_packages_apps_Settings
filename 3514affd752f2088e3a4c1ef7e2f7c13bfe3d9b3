@@ -41,3 +41,11 @@ UUID: AAAE5n////M=
 Bytes: 201
 I don't think so; in most cases, we want a simple boolean that can be checked to enable/disable SELinux processing in userspace.  Also that would differ from the current SELinux API in other languages.
 
+80
+Mon Apr 23 15:02:28 2012 +0000
+Author: T.O. Radzy Radzykewycz <1010466@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAE5n////M=
+UUID: AAAE5n///+4=
+Bytes: 81
+It does not make any sense, to me, to have multiple mutually-exclusive variables.
+
