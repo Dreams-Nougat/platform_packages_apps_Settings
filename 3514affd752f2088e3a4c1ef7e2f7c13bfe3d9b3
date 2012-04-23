@@ -33,3 +33,11 @@ Say:
 
 and have SELinux.getSELinuxStatus() return one of them?
 
+80
+Mon Apr 23 14:16:39 2012 +0000
+Author: Stephen Smalley <1010111@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAE6n////4=
+UUID: AAAE5n////M=
+Bytes: 201
+I don't think so; in most cases, we want a simple boolean that can be checked to enable/disable SELinux processing in userspace.  Also that would differ from the current SELinux API in other languages.
+
