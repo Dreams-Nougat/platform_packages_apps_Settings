@@ -1,0 +1,11 @@
+Revision: b18d5bbacd4ec6d762fa79806d45d2816d9ba0cf
+Patch-set: 2
+File: src/com/android/settings/RadioInfo.java
+
+196
+Tue May 01 00:57:41 2012 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFKn///6w=
+Bytes: 185
+I think it would be a good idea to range check here and default to 12 "unknown" so we don't crash the next time we change the preferred network types. And lets log an error using Log.e.
+
