@@ -1,0 +1,11 @@
+Revision: 41e70e67fa218858a38a4105b3fbadcd4f82c846
+Patch-set: 1
+File: src/com/android/settings/deviceinfo/Status.java
+
+118
+Wed May 02 21:34:36 2012 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFK3///s4=
+Bytes: 59
+This should be changed to mUnknown if it's no longer static
+
