@@ -9,3 +9,11 @@ UUID: AAAFKn///6w=
 Bytes: 185
 I think it would be a good idea to range check here and default to 12 "unknown" so we don't crash the next time we change the preferred network types. And lets log an error using Log.e.
 
+196
+Wed May 02 09:27:40 2012 +0000
+Author: Ricardo Cerqueira <1005602@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAFKn///6w=
+UUID: AAAFMn////s=
+Bytes: 97
+How about replacing the hardwired values with counts relative to mPreferredNetworkLabels.length ?
+
