@@ -1,0 +1,35 @@
+Revision: 6262a05237f8259303443859de0b7267802bebab
+Patch-set: 3
+File: src/com/android/settings/RadioInfo.java
+
+197
+Wed May 02 17:45:00 2012 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFKn///lY=
+Bytes: 98
+lets have this read:
+  Log.e("[RadioInfo] EVENT_QUERY_PREFERRED_TYPE_DONE: unknown type=" + type);
+
+198
+Wed May 02 17:45:00 2012 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFKn///lU=
+Bytes: 93
+remove unnecessary parens and space around "-":
+
+  type = mPreferredNetworkLabels.length - 1;
+
+202
+Wed May 02 17:45:00 2012 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFKn///lQ=
+Bytes: 36
+no extra parens and space around "-"
+
+1016
+Wed May 02 17:45:00 2012 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFKn///lM=
+Bytes: 29
+remove "//IS THIS NEEDED ....
+
