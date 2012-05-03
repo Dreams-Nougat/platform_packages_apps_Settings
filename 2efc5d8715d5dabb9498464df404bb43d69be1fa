@@ -25,3 +25,21 @@ UUID: AAAFKn///dw=
 Bytes: 44
 Please break at the +. We allow 100 columns.
 
+197
+Thu May 03 15:46:36 2012 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAFMn///+Y=
+UUID: AAAFK3///pI=
+Bytes: 279
+FYI android max line length 100.
+
+As for breaking the long line, it can be broken anywhere you like. In this case I'd probably do it after the "+":
+
+  Log.e(".... type=" +
+              type);
+
+But I might also do:
+
+  Log.e("... _DONE:" +
+               " unknown type=" + type);
+
