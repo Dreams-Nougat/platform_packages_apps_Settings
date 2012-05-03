@@ -1,0 +1,15 @@
+Revision: 30c4b51aedf00a614f06d6c97a9b9b9892ad1e64
+Patch-set: 5
+File: src/com/android/settings/RadioInfo.java
+
+197
+Thu May 03 18:10:46 2012 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFKn///a0=
+Bytes: 92
+Missing TAG:
+
+  Log.e(TAG, ".....");
+
+Watch out for a long line, may or may not be too long.
+
