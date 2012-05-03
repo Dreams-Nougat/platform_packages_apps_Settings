@@ -9,3 +9,11 @@ UUID: AAAFK3///pc=
 Bytes: 36
 Ugh, one more nit, line is too long.
 
+197
+Thu May 03 14:26:41 2012 +0000
+Author: Ricardo Cerqueira <1005602@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAFK3///pc=
+UUID: AAAFMn///+Y=
+Bytes: 105
+Coding style question: The string itself takes this over 80 cols. Break the string, or break at the +? :)
+
