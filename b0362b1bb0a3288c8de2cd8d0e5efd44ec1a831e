@@ -1,0 +1,18 @@
+Revision: b0362b1bb0a3288c8de2cd8d0e5efd44ec1a831e
+Base-for-patch-set: 1
+File: src/com/android/settings/Utils.java
+
+86
+Fri May 04 14:03:41 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFSn////4=
+Bytes: 63
+The method should return false if preference is removed, but...
+
+127
+Fri May 04 14:03:41 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFSn////0=
+Bytes: 48
+Is returning true after deleting the preference.
+
