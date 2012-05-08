@@ -1,0 +1,11 @@
+Revision: a8d0b0e95da4a0f5b5c64c8f2667bd94027c438b
+Patch-set: 1
+File: src/com/android/settings/DisplaySettings.java
+
+127
+Tue May 08 02:25:46 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFX3////0=
+Bytes: 68
+This seems like an odd way to hide the problem instead of fixing it.
+
