@@ -1,0 +1,11 @@
+Revision: 0e398716ec2be0aee1c29441e8954f06c15c72f7
+Patch-set: 2
+File: src/com/android/settings/DisplaySettings.java
+
+110
+Wed May 09 20:50:29 2012 +0000
+Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFYH///uo=
+Bytes: 133
+Please update the "Unsupported value" comment, maybe with a reference to disableUnusableTimeouts() that explains how this can happen.
+
