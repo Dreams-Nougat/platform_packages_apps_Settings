@@ -1,0 +1,18 @@
+Revision: 42520910584f5a52618621add3e1bd3dea3d6649
+Patch-set: 1
+File: src/com/android/settings/SoundSettings.java
+
+165
+Mon May 14 20:40:08 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFYH///O4=
+Bytes: 43
+Please indent continuation lines by 8 space
+
+341
+Mon May 14 20:40:08 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAFbX///0w=
+Bytes: 38
+Please cut this across multiple lines.
+
