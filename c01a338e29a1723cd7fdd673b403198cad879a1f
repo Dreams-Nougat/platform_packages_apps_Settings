@@ -1,0 +1,30 @@
+Revision: c01a338e29a1723cd7fdd673b403198cad879a1f
+Patch-set: 1
+File: src/com/android/settings/inputmethod/InputMethodAndLanguageSettings.java
+
+368
+Sat Jun 09 01:39:28 2012 +0000
+Author: Ken Wakasa <1004338@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAGhX////4=
+Bytes: 22
+Unnecessary blank line
+
+373
+Sat Jun 09 01:39:28 2012 +0000
+Author: Ken Wakasa <1004338@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAGhX////0=
+Bytes: 244
+Shouldn't this method rather do everything at l.203 - l.205, not just updateCurrentImeName()?
+
+ // IME
+ InputMethodAndSubtypeUtil.loadInputMethodSubtypeList(
+         this, getContentResolver(), mImis, null);
+ updateActiveInputMethodsSummary();
+
+389
+Sat Jun 09 01:39:28 2012 +0000
+Author: Ken Wakasa <1004338@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAGhX////8=
+Bytes: 23
+Unnecessary blank line.
+
