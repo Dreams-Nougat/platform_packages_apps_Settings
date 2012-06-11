@@ -1,0 +1,12 @@
+Revision: 8ed792cf15ed391b2d6bf8264b6b994d95bd95c8
+Patch-set: 2
+File: src/com/android/settings/DateTimeSettings.java
+
+342
+Mon Jun 11 17:01:33 2012 +0000
+Author: Gilles Debunne <1005346@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAGfX///5Y=
+Bytes: 92
+To be consistent, you could pick 1902 as a min.
+Also add a comment about the int limitation.
+
