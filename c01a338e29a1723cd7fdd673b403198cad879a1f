@@ -9,6 +9,14 @@ UUID: AAAGhX////4=
 Bytes: 22
 Unnecessary blank line
 
+368
+Tue Jun 12 18:36:40 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAGhX////4=
+UUID: AAAGgn///80=
+Bytes: 4
+Done
+
 373
 Sat Jun 09 01:39:28 2012 +0000
 Author: Ken Wakasa <1004338@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -21,10 +29,28 @@ Shouldn't this method rather do everything at l.203 - l.205, not just updateCurr
          this, getContentResolver(), mImis, null);
  updateActiveInputMethodsSummary();
 
+373
+Tue Jun 12 18:36:40 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAGhX////0=
+UUID: AAAGgn///88=
+Bytes: 118
+No, I do not think that should be done here.
+
+Switching the default IME does not necessarily enable/disable sub-types.
+
 389
 Sat Jun 09 01:39:28 2012 +0000
 Author: Ken Wakasa <1004338@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: AAAGhX////8=
 Bytes: 23
 Unnecessary blank line.
+
+389
+Tue Jun 12 18:36:40 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAGhX////8=
+UUID: AAAGgn///8w=
+Bytes: 4
+Done
 
