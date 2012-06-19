@@ -2,6 +2,20 @@ Revision: 8e8ac6b134d135d16db36ba59a1ca7724d012049
 Patch-set: 1
 File: src/com/android/settings/AccessibilitySettings.java
 
+185
+Tue Jun 19 21:13:18 2012 +0000
+Author: Svetoslav Ganov <1010257@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAGw3///6Q=
+Bytes: 43
+Good catch - check again in the function :)
+
+488
+Tue Jun 19 21:13:18 2012 +0000
+Author: Svetoslav Ganov <1010257@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAGw3///50=
+Bytes: 153
+Can you please move this check right before showing the dialog. Now we will be checking this even if we already shown the dialog and the user clicked OK?
+
 495
 Tue Jun 19 19:24:13 2012 +0000
 Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
