@@ -1,0 +1,11 @@
+Revision: 8e8ac6b134d135d16db36ba59a1ca7724d012049
+Patch-set: 1
+File: src/com/android/settings/AccessibilitySettings.java
+
+495
+Tue Jun 19 19:24:13 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAGwn///9g=
+Bytes: 26
+Please wrap to 100 columns
+
