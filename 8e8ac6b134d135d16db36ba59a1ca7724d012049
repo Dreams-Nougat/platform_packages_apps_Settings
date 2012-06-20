@@ -28,6 +28,18 @@ Otherwise, user maybe confused with why anything happened after clicked OK and w
 
 What do you think about?
 
+488
+Wed Jun 20 02:15:14 2012 +0000
+Author: Svetoslav Ganov <1010257@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAGy3///+w=
+UUID: AAAGw3///y0=
+Bytes: 822
+I completely agree that we should not show the dialog if there is not app to handle the intent.
+
+It seems that I was not clear enough - sorry. Below we are checking in the shared preferences if the dialog has been shown at least one. If so, we do not bother showing it. However, your patch will check whether the intent can be handled by an activity every time even if Market was installed and we have already shown the dialog.
+
+My proposal was to move your check after we are sure that the dialog has never been shown i.e. right after "if (offerInstallService) {". If the check fails then just return and neither update the shared preferences nor not call show dialog. This way we are not showing the dialog and the next time we would do the check for activity since there may be a new installed app to handle the intent.
+
 495
 Tue Jun 19 19:24:13 2012 +0000
 Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
