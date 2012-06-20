@@ -16,6 +16,18 @@ UUID: AAAGw3///50=
 Bytes: 153
 Can you please move this check right before showing the dialog. Now we will be checking this even if we already shown the dialog and the user clicked OK?
 
+488
+Wed Jun 20 01:46:17 2012 +0000
+Author: Roger Chen <1005243@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAGw3///50=
+UUID: AAAGy3///+w=
+Bytes: 326
+I think it's a good way that we don't show the dialog if no market installed, of cause I considered it when I fixed this issue.
+
+Otherwise, user maybe confused with why anything happened after clicked OK and we also can show the tip dialog in time if user installed a 3rd party market manually later.
+
+What do you think about?
+
 495
 Tue Jun 19 19:24:13 2012 +0000
 Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
