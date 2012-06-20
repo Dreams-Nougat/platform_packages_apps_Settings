@@ -40,6 +40,14 @@ It seems that I was not clear enough - sorry. Below we are checking in the share
 
 My proposal was to move your check after we are sure that the dialog has never been shown i.e. right after "if (offerInstallService) {". If the check fails then just return and neither update the shared preferences nor not call show dialog. This way we are not showing the dialog and the next time we would do the check for activity since there may be a new installed app to handle the intent.
 
+488
+Wed Jun 20 04:45:52 2012 +0000
+Author: Roger Chen <1005243@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAGw3///y0=
+UUID: AAAGy3///+k=
+Bytes: 46
+OK, thanks, I will update in the patch2 later.
+
 495
 Tue Jun 19 19:24:13 2012 +0000
 Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
