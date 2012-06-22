@@ -1,0 +1,11 @@
+Revision: e790882ec2f02cd2944b490ba74618595188ad2b
+Patch-set: 5
+File: src/com/android/settings/AccessibilitySettings.java
+
+30
+Fri Jun 22 22:36:37 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAG13///9o=
+Bytes: 24
+This import unnecessary.
+
