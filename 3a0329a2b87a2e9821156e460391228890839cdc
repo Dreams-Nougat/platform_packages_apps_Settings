@@ -1,0 +1,11 @@
+Revision: 3a0329a2b87a2e9821156e460391228890839cdc
+Patch-set: 4
+File: src/com/android/settings/DeviceInfoSettings.java
+
+91
+Tue Jul 10 15:31:36 2012 +0000
+Author: Stephen Smalley <1010111@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAHMH///50=
+Bytes: 20
+Use spaces not tabs.
+
