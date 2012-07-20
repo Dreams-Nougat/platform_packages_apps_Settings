@@ -1,0 +1,30 @@
+Revision: 1dc240431328ae96f360f8887b9ee7e49b282ab4
+Patch-set: 6
+File: res/values/strings.xml
+
+3788
+Fri Jul 20 09:25:17 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAHt3///6c=
+Bytes: 165
+Normally, double quotes are not necessary; <string name="selinux_status_disabled">Disabled</string> should be fine.
+But this, I think, a mere matter of preference...
+
+File: res/xml/device_info_settings.xml
+
+126
+Fri Jul 20 09:25:17 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAHt3///6k=
+Bytes: 135
+As per DeviceInfoSettings.java lines 89-90, "Enforcing" is the default summary text; replace this with @string/selinux_status_enforcing
+
+File: src/com/android/settings/DeviceInfoSettings.java
+
+88
+Fri Jul 20 09:25:17 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAHt3///6g=
+Bytes: 112
+This last else block is not needed if default summary is set to "Enforcing in device_info_settings.xml line 126.
+
