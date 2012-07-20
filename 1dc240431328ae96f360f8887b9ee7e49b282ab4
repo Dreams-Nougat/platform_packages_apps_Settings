@@ -10,6 +10,14 @@ Bytes: 165
 Normally, double quotes are not necessary; <string name="selinux_status_disabled">Disabled</string> should be fine.
 But this, I think, a mere matter of preference...
 
+3788
+Fri Jul 20 15:54:39 2012 +0000
+Author: Nick Kralevich <1003966@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAHt3///6c=
+UUID: AAAHtX///0o=
+Bytes: 40
+yes, please fix this and the line below.
+
 File: res/xml/device_info_settings.xml
 
 126
@@ -20,6 +28,13 @@ Bytes: 135
 As per DeviceInfoSettings.java lines 89-90, "Enforcing" is the default summary text; replace this with @string/selinux_status_enforcing
 
 File: src/com/android/settings/DeviceInfoSettings.java
+
+34
+Fri Jul 20 15:54:39 2012 +0000
+Author: Nick Kralevich <1003966@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAHtX///0k=
+Bytes: 65
+Alphabetize imports. This line should go between lines 25 and 26.
 
 88
 Fri Jul 20 09:25:17 2012 +0000
