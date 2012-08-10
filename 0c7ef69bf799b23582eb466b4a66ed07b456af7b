@@ -1,0 +1,20 @@
+Revision: 0c7ef69bf799b23582eb466b4a66ed07b456af7b
+Patch-set: 1
+File: src/com/android/settings/deviceinfo/Memory.java
+
+60
+Fri Aug 10 02:46:11 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIOn////8=
+Bytes: 104
+Keep this consistent with other lines, change to
+
+    private static Preference mLastClickedMountToggle;
+
+61
+Fri Aug 10 02:46:11 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIOn////4=
+Bytes: 14
+Same as above.
+
