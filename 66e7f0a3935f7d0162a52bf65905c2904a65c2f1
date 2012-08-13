@@ -1,0 +1,13 @@
+Revision: 66e7f0a3935f7d0162a52bf65905c2904a65c2f1
+Patch-set: 2
+File: src/com/android/settings/deviceinfo/Memory.java
+
+61
+Mon Aug 13 20:17:11 2012 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIRn///nE=
+Bytes: 163
+longer term these should become parameters that get passed into a DialogFragment, so they are bundled correctly.
+
+making them static to workaround is fine for now.
+
