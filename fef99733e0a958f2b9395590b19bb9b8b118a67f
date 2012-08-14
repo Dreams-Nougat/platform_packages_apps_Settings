@@ -1,0 +1,11 @@
+Revision: fef99733e0a958f2b9395590b19bb9b8b118a67f
+Patch-set: 1
+File: src/com/android/settings/bluetooth/DevicePickerFragment.java
+
+61
+Tue Aug 14 16:27:28 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIW3///14=
+Bytes: 58
+Style issue: please use braces in a multiline conditional.
+
