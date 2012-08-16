@@ -1,0 +1,18 @@
+Revision: 478df9dd03ce6266640030be31c324387a64dd60
+Patch-set: 1
+File: src/com/android/settings/deviceinfo/Memory.java
+
+274
+Thu Aug 16 07:09:54 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIhn///+o=
+Bytes: 44
+Why do you need an error level logging here?
+
+275
+Thu Aug 16 07:09:54 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIhn///+k=
+Bytes: 53
+Minor style issue: keep white space usage consistent.
+
