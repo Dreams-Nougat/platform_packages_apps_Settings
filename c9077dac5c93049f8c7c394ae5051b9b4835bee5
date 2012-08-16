@@ -1,0 +1,20 @@
+Revision: c9077dac5c93049f8c7c394ae5051b9b4835bee5
+Patch-set: 1
+File: src/com/android/settings/deviceinfo/StorageMeasurement.java
+
+509
+Thu Aug 16 23:59:20 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIf3///Oc=
+Bytes: 47
+The canonical code style is to use braces here.
+
+File: src/com/android/settings/deviceinfo/StorageVolumePreferenceCategory.java
+
+444
+Thu Aug 16 23:59:20 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIkX///7k=
+Bytes: 42
+The standard Google style uses braces here
+
