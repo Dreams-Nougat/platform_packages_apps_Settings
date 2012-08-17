@@ -1,0 +1,25 @@
+Revision: f21f84ab58817571d53b0017cb22fdaaab805ffd
+Patch-set: 2
+File: src/com/android/settings/deviceinfo/Memory.java
+
+275
+Fri Aug 17 00:14:24 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIkH///5I=
+Bytes: 32
+Missing a space before the brace
+
+277
+Fri Aug 17 00:14:24 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIf3///LE=
+Bytes: 11
+100 columns
+
+280
+Fri Aug 17 00:14:24 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIf3///K8=
+Bytes: 19
+100 columns, bummer
+
