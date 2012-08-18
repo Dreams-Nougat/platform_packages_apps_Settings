@@ -9,6 +9,19 @@ UUID: AAAIf3///Oc=
 Bytes: 47
 The canonical code style is to use braces here.
 
+509
+Sat Aug 18 21:07:08 2012 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIrn///+U=
+Bytes: 273
+hmm, there is a comment over in SVPC:
+
+// Note miscSize != totalSize - availSize - appsSize - downloadsSize - totalMediaSize
+
+so the math here might not be accurate.
+
+the right fix here might be to call over to IMCS, which will have sdcard_r GID (which has the needed RWX).
+
 File: src/com/android/settings/deviceinfo/StorageVolumePreferenceCategory.java
 
 444
