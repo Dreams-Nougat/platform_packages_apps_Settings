@@ -1,0 +1,11 @@
+Revision: c9dc84f00c577d653d2985442e27384ad0f911be
+Patch-set: 1
+File: src/com/android/settings/Settings.java
+
+384
+Sat Aug 18 20:27:58 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIu3///8Q=
+Bytes: 41
+This should be single-line or have braces
+
