@@ -1,0 +1,11 @@
+Revision: 181ea95d4a854a79fcbaf7c2aac37333eae55ca7
+Patch-set: 1
+File: res/values/bools.xml
+
+19
+Sun Aug 19 01:24:28 2012 +0000
+Author: Dianne Hackborn <1000559@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIrn///9w=
+Bytes: 85
+The convention for this is to put them in config.xml and name them config_hasBattery.
+
