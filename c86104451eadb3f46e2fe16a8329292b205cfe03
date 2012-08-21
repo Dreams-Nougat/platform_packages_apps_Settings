@@ -9,3 +9,11 @@ UUID: AAAIxn///yI=
 Bytes: 57
 Please break this so that it doesn't overflow 100 columns
 
+178
+Tue Aug 21 17:34:49 2012 +0000
+Author: Kenny Root <1002975@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAIxn///yI=
+UUID: AAAIxn///xI=
+Bytes: 172
+Were the interoperability problems fixed? I'm not familiar with this code, but it looks like it will show the "Format" option for things it shouldn't like emulated storage.
+
