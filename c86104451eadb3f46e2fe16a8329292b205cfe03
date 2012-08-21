@@ -1,0 +1,11 @@
+Revision: c86104451eadb3f46e2fe16a8329292b205cfe03
+Patch-set: 1
+File: src/com/android/settings/deviceinfo/StorageVolumePreferenceCategory.java
+
+178
+Tue Aug 21 17:25:30 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIxn///yI=
+Bytes: 57
+Please break this so that it doesn't overflow 100 columns
+
