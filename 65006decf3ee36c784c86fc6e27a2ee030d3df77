@@ -1,0 +1,27 @@
+Revision: 65006decf3ee36c784c86fc6e27a2ee030d3df77
+Patch-set: 1
+File: src/com/android/settings/IccLockSettings.java
+
+213
+Tue Aug 21 17:27:27 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIw3///2U=
+Bytes: 31
+Please indent by one more space
+
+239
+Tue Aug 21 17:27:27 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIxn///yA=
+Bytes: 46
+Please use braces for multi-line conditionals.
+
+File: src/com/android/settings/SecuritySettings.java
+
+388
+Tue Aug 21 17:27:27 2012 +0000
+Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIw3///2E=
+Bytes: 58
+100 columns. Also, please remove the space after the cast.
+
