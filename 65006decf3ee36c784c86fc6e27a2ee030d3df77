@@ -9,12 +9,26 @@ UUID: AAAIw3///2U=
 Bytes: 31
 Please indent by one more space
 
+232
+Tue Aug 21 20:52:19 2012 +0000
+Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIwn///tU=
+Bytes: 105
+This should be in onPause() instead. See http://developer.android.com/reference/android/app/Activity.html
+
 239
 Tue Aug 21 17:27:27 2012 +0000
 Author: Jean-Baptiste Queru <1000660@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: AAAIxn///yA=
 Bytes: 46
 Please use braces for multi-line conditionals.
+
+239
+Tue Aug 21 20:52:19 2012 +0000
+Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAIwn///tA=
+Bytes: 205
+Sorry, but calling finish() is the wrong way to do this.  Instead, move this code into SecuritySettings and disable the setting that launches this one. It looks like there's code that already does this. :/
 
 File: src/com/android/settings/SecuritySettings.java
 
