@@ -17,3 +17,11 @@ UUID: AAAIxn///xI=
 Bytes: 172
 Were the interoperability problems fixed? I'm not familiar with this code, but it looks like it will show the "Format" option for things it shouldn't like emulated storage.
 
+178
+Thu Aug 23 06:19:27 2012 +0000
+Author: Chuanxiao Dong <1015280@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAIxn///xI=
+UUID: AAAI33///0s=
+Bytes: 179
+emulated storage is only for primary storage. If a storage is removable, it cannot be emulated. So i think the format option is only for the none primary removable storage, right?
+
