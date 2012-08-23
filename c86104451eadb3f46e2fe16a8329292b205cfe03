@@ -25,3 +25,11 @@ UUID: AAAI33///0s=
 Bytes: 179
 emulated storage is only for primary storage. If a storage is removable, it cannot be emulated. So i think the format option is only for the none primary removable storage, right?
 
+178
+Thu Aug 23 22:31:51 2012 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAI33///0s=
+UUID: AAAI2H//+XY=
+Bytes: 69
+agree with kenny; were the MTP issues mentioned in the comment fixed?
+
