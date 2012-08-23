@@ -49,6 +49,16 @@ Even if we move the handling to SecuritySettings, when the user is in SIM card l
 
 Also may I know why calling finish is bad? Currently, finish has been used in many places.
 
+239
+Thu Aug 23 21:57:46 2012 +0000
+Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAI13//+kQ=
+UUID: AAAI13//+JI=
+Bytes: 466
+I don't think this change is of much use if we can't guarantee the device is in a usable state. IIRC that's why the dialog is there.  I don't think most devices handle this well and the user experience will vary. 
+
+Calling finish() for an asynchronous event like SIM state changes is bad because it's a very startling and potentially aggravating user experience.  Having a dialog or screen disappear while you're reading/interacting with it is a very bad experience.
+
 File: src/com/android/settings/SecuritySettings.java
 
 388
