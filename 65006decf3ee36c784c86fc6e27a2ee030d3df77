@@ -30,6 +30,25 @@ UUID: AAAIwn///tA=
 Bytes: 205
 Sorry, but calling finish() is the wrong way to do this.  Instead, move this code into SecuritySettings and disable the setting that launches this one. It looks like there's code that already does this. :/
 
+239
+Thu Aug 23 14:44:58 2012 +0000
+Author: Jeevaka Prabu Badrappan <1010938@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAIwn///tA=
+UUID: AAAI13//+kQ=
+Bytes: 723
+For the following case, do you see any other option other than using finish
+
+1. Current UI shown is Menu->Settings->Security->Set up SIM card lock(SIM card lock Settings)
+2. Remove the SIM
+
+Currently, a dialog will be shown to restart the device. But user can ignore this dialog.
+
+SIM card lock settings screen will still be shown when there is no SIM. 
+
+Even if we move the handling to SecuritySettings, when the user is in SIM card lock Settings(step 1 above), SecuritySettings will be in paused state and it will not be able to receive SIM state/service change broadcast information. So, it can remove or disable the preference.
+
+Also may I know why calling finish is bad? Currently, finish has been used in many places.
+
 File: src/com/android/settings/SecuritySettings.java
 
 388
