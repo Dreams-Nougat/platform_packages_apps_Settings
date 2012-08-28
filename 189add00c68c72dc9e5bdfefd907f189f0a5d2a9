@@ -22,3 +22,11 @@ Lets remove this code. The UX guys did not want to show the connection status an
 
 We can revisit this UX again
 
+544
+Tue Aug 28 01:06:29 2012 +0000
+Author: Yoshihiko Ikenaga <1014552@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAI6n///ZQ=
+UUID: AAAI2n///g8=
+Bytes: 130
+OK, remove them so far.But I'm sure we should display the network name in order that user can know which persistent group is used.
+
