@@ -1,0 +1,24 @@
+Revision: 189add00c68c72dc9e5bdfefd907f189f0a5d2a9
+Patch-set: 1
+File: res/values/strings.xml
+
+1455
+Tue Aug 28 00:57:02 2012 +0000
+Author: Irfan Sheriff <1003344@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAI63//+4E=
+Bytes: 61
+Lets remove "(" and ")"
+
+Do you want to delete the group xyz?
+
+File: src/com/android/settings/wifi/p2p/WifiP2pSettings.java
+
+544
+Tue Aug 28 00:57:02 2012 +0000
+Author: Irfan Sheriff <1003344@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAI6n///ZQ=
+Bytes: 179
+Lets remove this code. The UX guys did not want to show the connection status and network name in this place - it is meant to show device name alone.
+
+We can revisit this UX again
+
