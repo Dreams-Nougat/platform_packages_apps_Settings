@@ -21,3 +21,11 @@ sounds like a new test case to add
 
 are there otther things that can appear? RT for example? maybe this should be generalized to a series of space separated keywords, since we are just ignoring these anyway.
 
+230
+Fri Sep 07 17:22:28 2012 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAI83///oM=
+UUID: AAAI9n///Z8=
+Bytes: 355
+yeah, see my TODO on L223. i think this is a sign that i should just fix the TODO right now. i'll lose the explicit SMP and PREEMPT special cases and just skip ahead until i see an RFC822 date. i'd considered that earlier but didn't want to write out the list of English three-letter day names, but that would solve my no-SMP bug and the TODO in one go...
+
