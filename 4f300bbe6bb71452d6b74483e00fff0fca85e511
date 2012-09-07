@@ -11,3 +11,13 @@ SMP should be optional or it borks uni-cores. E/DeviceInfoSettings( 1085): Regex
 
 changing to "(?:SMP )?(?:PREEMPT )?" fixed it
 
+230
+Fri Sep 07 00:47:38 2012 +0000
+Author: Brian Carlstrom <1003723@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAI8n///+A=
+UUID: AAAI83///oM=
+Bytes: 207
+sounds like a new test case to add
+
+are there otther things that can appear? RT for example? maybe this should be generalized to a series of space separated keywords, since we are just ignoring these anyway.
+
