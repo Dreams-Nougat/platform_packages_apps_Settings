@@ -1,0 +1,13 @@
+Revision: 4f300bbe6bb71452d6b74483e00fff0fca85e511
+Patch-set: 1
+File: src/com/android/settings/DeviceInfoSettings.java
+
+230
+Fri Sep 07 00:23:25 2012 +0000
+Author: Andrew Sutherland <1014278@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAI8n///+A=
+Bytes: 289
+SMP should be optional or it borks uni-cores. E/DeviceInfoSettings( 1085): Regex did not match on /proc/version: Linux version 2.6.38.8-evervolv-perdo-jellybean+ (drew@master) (gcc version 4.4.3 (GCC) ) #1 PREEMPT Tue Aug 28 22:10:46 CDT 2012
+
+changing to "(?:SMP )?(?:PREEMPT )?" fixed it
+
