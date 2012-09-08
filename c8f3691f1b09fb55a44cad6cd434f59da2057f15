@@ -1,0 +1,11 @@
+Revision: c8f3691f1b09fb55a44cad6cd434f59da2057f15
+Patch-set: 2
+File: src/com/android/settings/DeviceInfoSettings.java
+
+226
+Sat Sep 08 00:58:49 2012 +0000
+Author: Brian Carlstrom <1003723@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAI83///A4=
+Bytes: 48
+crossing fingers that this is locale independent
+
