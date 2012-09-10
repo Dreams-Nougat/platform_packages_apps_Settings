@@ -9,3 +9,17 @@ UUID: AAAI83///A4=
 Bytes: 48
 crossing fingers that this is locale independent
 
+226
+Mon Sep 10 18:08:27 2012 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAI83///A4=
+UUID: AAAI83//+sQ=
+Bytes: 156
+yes, the Linux mkcompile_h script is careful about this:
+
+  # Fix the language to get consistent output
+  LC_ALL=C
+  export LC_ALL
+  ...
+  	TIMESTAMP=`date`
+
