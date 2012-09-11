@@ -23,3 +23,12 @@ yes, the Linux mkcompile_h script is careful about this:
   ...
   	TIMESTAMP=`date`
 
+File: tests/src/com/android/settings/DeviceInfoSettingsTest.java
+
+2
+Tue Sep 11 00:50:01 2012 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAI9n//+BI=
+Bytes: 14
+Copyright 2012
+
