@@ -1,0 +1,11 @@
+Revision: 56159bfbfa2f04d0b188a100352cf3043b624daa
+Patch-set: 2
+File: src/com/android/settings/tts/TextToSpeechSettings.java
+
+346
+Tue Sep 11 16:17:54 2012 +0000
+Author: Przemyslaw Szczepaniak <1015680@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAI5n//+i4=
+Bytes: 43
+Can't find this in strings, does not build.
+
