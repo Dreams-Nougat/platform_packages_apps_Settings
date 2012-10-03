@@ -1,0 +1,11 @@
+Revision: 98267a66b2b5c630503a3515aae764ad78667ab6
+Patch-set: 1
+File: src/com/android/settings/tts/TtsEnginePreference.java
+
+83
+Wed Oct 03 04:01:50 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAJyn///ww=
+Bytes: 137
+This same value is used in CheckBoxAndSettingsPreference.java, therefore I think it will be better to have both values in the same place.
+
