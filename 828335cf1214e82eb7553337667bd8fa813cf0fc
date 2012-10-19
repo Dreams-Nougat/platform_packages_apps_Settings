@@ -1,0 +1,11 @@
+Revision: 828335cf1214e82eb7553337667bd8fa813cf0fc
+Patch-set: 2
+File: res/xml/device_info_status.xml
+
+127
+Fri Oct 19 17:55:26 2012 +0000
+Author: Kenny Root <1002975@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAKgX///yU=
+Bytes: 137
+I wonder why the WiMax address is down here. I'm going to move this above up_time and later I'll move WiMax near the other cellular data.
+
