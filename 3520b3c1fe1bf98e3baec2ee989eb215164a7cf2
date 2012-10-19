@@ -1,0 +1,11 @@
+Revision: 3520b3c1fe1bf98e3baec2ee989eb215164a7cf2
+Patch-set: 1
+File: src/com/android/settings/applications/InstalledAppDetails.java
+
+457
+Fri Oct 19 05:54:58 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAKhH////0=
+Bytes: 55
+Do we really need this log message? It looks redundant.
+
