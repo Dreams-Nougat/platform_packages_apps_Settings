@@ -1,0 +1,20 @@
+Revision: 38ee54637f99b77533b80ee1611d5d1a2f53c83a
+Patch-set: 3
+File: src/com/android/settings/DeviceInfoSettings.java
+
+149
+Mon Oct 22 14:19:52 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAKhn///9U=
+Bytes: 172
+Although, unrelated to the actual change, you seem to be re-arranging the code here... Can you position the "" literal first also? So, that this line won't hurt the eyes :)
+
+File: src/com/android/settings/deviceinfo/Status.java
+
+272
+Mon Oct 22 14:19:52 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAKhn///9Y=
+Bytes: 37
+Need to move this block to onResume()
+
