@@ -18,3 +18,10 @@ UUID: AAAKhn///9Y=
 Bytes: 37
 Need to move this block to onResume()
 
+272
+Mon Oct 22 14:25:09 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAKhn///9M=
+Bytes: 221
+Also, it may worth to re-do the "user" mode check here and enclose this block with if (!"user".equals(Build.TYPE)){} in order not to do redundant SELinux status checks and null pointer checks in setSummaryText() method...
+
