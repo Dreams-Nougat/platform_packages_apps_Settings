@@ -1,0 +1,11 @@
+Revision: d4c56058e25b5838d89ac53de70d88e21d199b63
+Patch-set: 3
+File: src/com/android/settings/DateTimeSettings.java
+
+123
+Fri Oct 26 20:07:07 2012 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAK63///kc=
+Bytes: 258
+There was a problem with using Dec 31 without setting the TimeZone on the calendar. This is why the setTimeZone() was added in updateTimeAndDateDisplay(). Otherwise it can show up as Jan 1st at certain times and places. Maybe picking Dec 30th would be safer.
+
