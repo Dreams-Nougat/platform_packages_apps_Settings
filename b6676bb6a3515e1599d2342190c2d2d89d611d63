@@ -1,0 +1,11 @@
+Revision: b6676bb6a3515e1599d2342190c2d2d89d611d63
+Patch-set: 4
+File: src/com/android/settings/DateTimeSettings.java
+
+123
+Fri Oct 26 23:37:05 2012 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAAK63///YU=
+Bytes: 80
+Did you intent to upload this patchset? You are setting it to fall into Jan 1st.
+
