@@ -9,3 +9,13 @@ UUID: AAAJyn///ww=
 Bytes: 137
 This same value is used in CheckBoxAndSettingsPreference.java, therefore I think it will be better to have both values in the same place.
 
+83
+Sun Nov 18 05:01:20 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: AAAJyn///ww=
+UUID: AAALqn///9k=
+Bytes: 268
+I am once again convinced that this needs to be defined in resources or in Utils.java.
+
+Currently, DreamSettings uses 0.33f for disabled icon opacity: https://android.googlesource.com/platform/packages/apps/Settings/+/c825bc8e17cb60cae88397ab77d1e2711c086624%5E%21/#F2
+
