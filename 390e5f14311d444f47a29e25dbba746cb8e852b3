@@ -1,0 +1,11 @@
+Revision: 390e5f14311d444f47a29e25dbba746cb8e852b3
+Patch-set: 2
+File: src/com/android/settings/tts/TtsEnginePreference.java
+
+84
+Mon Nov 19 17:42:12 2012 +0000
+Author: Przemyslaw Szczepaniak <1015680@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: AAALtX///7o=
+Bytes: 25
+Move it to the resources.
+
