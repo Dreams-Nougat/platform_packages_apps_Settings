@@ -9,6 +9,14 @@ UUID: MouPkrDc
 Bytes: 101
 TelephonyManager.NETWORK_TYPE_UNKNOWN is static value, maybe it makes sense to reference it as it is?
 
+336
+Thu Dec 06 08:45:07 2012 +0000
+Author: Johan Redestig <1002951@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: MouPkrDc
+UUID: Mr5OMHDo
+Bytes: 4
+Done
+
 339
 Thu Dec 06 07:58:58 2012 +0000
 Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -24,4 +32,20 @@ UUID: MooPWAE4
 Bytes: 121
 + I guess, an else {} block is also needed.
 Like, for example, what happens if network type changes from/to unknown/GPRS?
+
+339
+Thu Dec 06 08:45:07 2012 +0000
+Author: Johan Redestig <1002951@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: MooPWAE4
+UUID: Mr7ORGFM
+Bytes: 14
+same as above.
+
+339
+Thu Dec 06 08:45:07 2012 +0000
+Author: Johan Redestig <1002951@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: MogPq8AI
+UUID: Mr9OClAY
+Bytes: 65
+see setSummaryText above. It defaults to sUnknown if text is null
 
