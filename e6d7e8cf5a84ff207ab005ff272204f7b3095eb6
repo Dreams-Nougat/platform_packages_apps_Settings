@@ -1,0 +1,18 @@
+Revision: e6d7e8cf5a84ff207ab005ff272204f7b3095eb6
+Patch-set: 1
+File: src/com/android/settings/deviceinfo/Status.java
+
+336
+Thu Dec 06 07:58:58 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: MouPkrDc
+Bytes: 101
+TelephonyManager.NETWORK_TYPE_UNKNOWN is static value, maybe it makes sense to reference it as it is?
+
+339
+Thu Dec 06 07:58:58 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: MogPq8AI
+Bytes: 135
+This has to be inside the if() block, otherwise network type status summary will be removed (set to null) when network type is unknown.
+
