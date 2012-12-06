@@ -16,3 +16,12 @@ UUID: MogPq8AI
 Bytes: 135
 This has to be inside the if() block, otherwise network type status summary will be removed (set to null) when network type is unknown.
 
+339
+Thu Dec 06 08:02:50 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: MogPq8AI
+UUID: MooPWAE4
+Bytes: 121
++ I guess, an else {} block is also needed.
+Like, for example, what happens if network type changes from/to unknown/GPRS?
+
