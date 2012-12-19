@@ -1,0 +1,11 @@
+Revision: 78166466f046fe20871caf8db8373a2fae2607b9
+Patch-set: 1
+File: src/com/android/settings/wifi/WifiApDialog.java
+
+57
+Wed Dec 19 12:44:16 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: NCBpofa0
+Bytes: 32
+Static field names start with s.
+
