@@ -1,0 +1,11 @@
+Revision: 25c6797bb22905dfb9e8da5f15ca0c63b5f8c8b9
+Patch-set: 1
+File: src/com/android/settings/PrivacySettings.java
+
+204
+Wed Dec 19 12:52:33 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: NCLpWMfY
+Bytes: 72
+Redundant work if backup account preference is already in enabled state.
+
