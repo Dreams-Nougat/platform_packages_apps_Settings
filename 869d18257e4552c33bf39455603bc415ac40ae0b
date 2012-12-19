@@ -1,0 +1,11 @@
+Revision: 869d18257e4552c33bf39455603bc415ac40ae0b
+Patch-set: 1
+File: src/com/android/settings/applications/InstalledAppDetails.java
+
+1011
+Wed Dec 19 12:29:24 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: NCJo6TcQ
+Bytes: 50
+What should be the action if the activity is null?
+
