@@ -1,0 +1,29 @@
+Revision: 3d096a819e87c83e0b1bdfd1866cf34a6e804c78
+Patch-set: 1
+File: src/com/android/settings/inputmethod/UserDictionaryAddWordActivity.java
+
+25
+Wed Dec 19 11:55:51 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: NCFpF1UQ
+Bytes: 13
+Unused import
+
+File: src/com/android/settings/inputmethod/UserDictionaryAddWordContents.java
+
+59
+Wed Dec 19 11:55:51 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: NCDpKIVU
+Bytes: 40
+Does not really needed to be a 'private'
+
+File: src/com/android/settings/inputmethod/UserDictionaryAddWordFragment.java
+
+30
+Wed Dec 19 11:55:51 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: NCBpPXWU
+Bytes: 13
+Unused import
+
