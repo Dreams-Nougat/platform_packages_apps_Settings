@@ -1,0 +1,33 @@
+Revision: a3c1f2f034a6a360c65b324d6239069a135a60c6
+Patch-set: 1
+File: src/com/android/settings/deviceinfo/Memory.java
+
+69
+Wed Dec 19 13:07:13 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: NCHqWWa8
+Bytes: 31
+Static field names start with s
+
+294
+Wed Dec 19 13:07:13 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: NCFqbldM
+Bytes: 24
+Why error level logging?
+
+323
+Wed Dec 19 13:07:13 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: NCDqg4fc
+Bytes: 22
+Unused local variable?
+
+348
+Wed Dec 19 13:07:13 2012 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: NCPqpSeI
+Bytes: 89
+Enclose with braces.
+Also, what should be the action if the conditions are not satisfied?
+
