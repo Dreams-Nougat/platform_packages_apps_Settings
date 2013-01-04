@@ -1,0 +1,13 @@
+Revision: f34e6b4939b86b03ce61f793c7adee05678f716a
+Patch-set: 4
+File: res/values-sv/strings.xml
+
+596
+Fri Jan 04 14:52:04 2013 +0000
+Author: Baligh Uddin <1018026@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: Noh3GxPo
+Bytes: 223
+Please make sure source of translated string is corrected, otherwise next import will overwrite this change.
+
+https://tc.corp.google.com/btviewer/edittranslation?project=AndroidSettings&msgId=1136191511238508967&language=sv
+
