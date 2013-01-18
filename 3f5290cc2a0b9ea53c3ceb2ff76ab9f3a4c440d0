@@ -1,0 +1,13 @@
+Revision: 3f5290cc2a0b9ea53c3ceb2ff76ab9f3a4c440d0
+Patch-set: 1
+File: src/com/android/settings/BatteryInfo.java
+
+70
+Fri Jan 18 17:44:18 2013 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: OZ8d75Go
+Bytes: 254
+i'd be tempted to put the Math.abs on the previous line with a comment something like "avoid -1.-2".
+
+(do we really need to avoid the conversion to float here? how often does this get called? if we'd just used String.format we'd never have had this bug.)
+
