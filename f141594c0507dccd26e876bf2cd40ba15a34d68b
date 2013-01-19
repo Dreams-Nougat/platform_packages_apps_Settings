@@ -1,0 +1,18 @@
+Revision: f141594c0507dccd26e876bf2cd40ba15a34d68b
+Base-for-patch-set: 1
+File: src/com/android/settings/wifi/WifiConfigInfo.java
+
+34
+Sat Jan 19 13:02:03 2013 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: OoGIsFp0
+Bytes: 18
+Never used locally
+
+40
+Sat Jan 19 13:02:03 2013 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: OoIIpGo4
+Bytes: 27
+IMHO, not a useful comment.
+
