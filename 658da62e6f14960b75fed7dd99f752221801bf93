@@ -1,0 +1,11 @@
+Revision: 658da62e6f14960b75fed7dd99f752221801bf93
+Patch-set: 2
+File: src/com/android/settings/inputmethod/UserDictionaryAddWordContents.java
+
+59
+Mon Jan 21 04:40:13 2013 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: OqRlYKyA
+Bytes: 83
+I actually meant, no need for this class level variable; init one where it is used.
+
