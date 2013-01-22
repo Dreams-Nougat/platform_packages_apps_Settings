@@ -9,3 +9,11 @@ UUID: OoGK2Vow
 Bytes: 118
 Adding Intent.ACTION_MEDIA_SCANNER_SCAN_FILE to the above intentFilter should be fine (instead of re-initializing it).
 
+132
+Tue Jan 22 06:02:20 2013 +0000
+Author: Sungmin Choi <1016953@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: OoGK2Vow
+UUID: OqwAq7Ow
+Bytes: 93
+how about remove "getActivity().registerReceiver(mMediaScannerReceiver, intentFilter);", too?
+
