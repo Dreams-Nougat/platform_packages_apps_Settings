@@ -1,0 +1,11 @@
+Revision: b499bebd8d1d705b495a24dda3602b324d5a4a5d
+Patch-set: 1
+File: res/values/arrays.xml
+
+303
+Tue Jan 22 23:00:31 2013 +0000
+Author: Irfan Sheriff <1003344@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: OvIwFy3c
+Bytes: 116
+since you are now referring to another resource, can you remove the Do not translate and translatable entries here ?
+
