@@ -1,0 +1,11 @@
+Revision: f2a460c39e1a03aeed253a7cb1b9ef6e6d180eda
+Patch-set: 1
+File: /COMMIT_MSG
+
+14
+Fri Jan 25 23:36:56 2013 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: OwtuAhFk
+Bytes: 249
+Use the same Change-Id for all dependent changes (pick one of them as the "master" doesn't matter which one). Although we don't have atomic commits the auto verifier will test all changes with the same Change-Id together, hopefully allow it to pass.
+
