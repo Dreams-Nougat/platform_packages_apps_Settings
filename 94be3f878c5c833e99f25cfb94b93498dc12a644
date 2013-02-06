@@ -1,0 +1,11 @@
+Revision: 94be3f878c5c833e99f25cfb94b93498dc12a644
+Patch-set: 1
+File: src/com/android/settings/wifi/p2p/WifiP2pSettings.java
+
+135
+Wed Feb 06 16:49:36 2013 +0000
+Author: Irfan Sheriff <1003344@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: PhfdGgFM
+Bytes: 62
+Rename group_formed to mLastGroupFormed and make it non static
+
