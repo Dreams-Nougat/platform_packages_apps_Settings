@@ -1,0 +1,11 @@
+Revision: 509a74e9c1e3ec16f9259a3dec4d828a9db20bcc
+Patch-set: 1
+File: src/com/android/settings/bluetooth/BluetoothPairingRequest.java
+
+80
+Thu Feb 07 03:40:42 2013 +0000
+Author: Jeff Brown <1003957@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: PlU2IGSs
+Bytes: 94
+This is just wrong.  We'll end up keeping the screen on for some completely arbitrary timeout.
+
