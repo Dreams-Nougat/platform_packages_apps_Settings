@@ -1,0 +1,11 @@
+Revision: ca714d8d0c11c904b25bc20a0a9b2f2cc8d78ad5
+Patch-set: 1
+File: src/com/android/settings/SecuritySettings.java
+
+411
+Thu Feb 14 20:14:47 2013 +0000
+Author: Brian Carlstrom <1003723@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: P3.8YDDU
+Bytes: 82
+why bother with the local at this point. it was odd it wasn't inside the if before
+
