@@ -9,3 +9,11 @@ UUID: P3.8YDDU
 Bytes: 82
 why bother with the local at this point. it was odd it wasn't inside the if before
 
+411
+Thu Feb 14 20:17:59 2013 +0000
+Author: Kenny Root <1002975@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: P3.8YDDU
+UUID: P36-g1PQ
+Bytes: 96
+The next change I'll have to use it for another check, so I thought I'd just leave it like this.
+
