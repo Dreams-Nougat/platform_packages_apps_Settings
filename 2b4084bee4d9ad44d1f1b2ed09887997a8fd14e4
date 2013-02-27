@@ -1,0 +1,27 @@
+Revision: 2b4084bee4d9ad44d1f1b2ed09887997a8fd14e4
+Patch-set: 2
+File: res/values/arrays.xml
+
+554
+Wed Feb 27 19:55:37 2013 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: QWyfZOnk
+Bytes: 154
+Excellent - I was torn on whether to ask you to do it like this rather than a dumb string.  I'm glad you did the extra work to make it easy/self-checking.
+
+File: src/com/android/settings/ApnEditor.java
+
+369
+Wed Feb 27 19:55:37 2013 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: QW8eq3qc
+Bytes: 34
+should match data also be cleared?
+
+555
+Wed Feb 27 19:55:37 2013 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: QW2cxcsk
+Bytes: 120
+should this only put if the type is set?  We want to avoid cases where the match data has a value but the type does not.
+
