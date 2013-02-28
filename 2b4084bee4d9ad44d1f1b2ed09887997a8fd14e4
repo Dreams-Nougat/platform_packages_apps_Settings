@@ -18,10 +18,26 @@ UUID: QW8eq3qc
 Bytes: 34
 should match data also be cleared?
 
+369
+Thu Feb 28 02:22:15 2013 +0000
+Author: Sungmin Choi <1016953@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: QW8eq3qc
+UUID: QY98629I
+Bytes: 29
+OK, I'll set empty ("") value
+
 555
 Wed Feb 27 19:55:37 2013 +0000
 Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: QW2cxcsk
 Bytes: 120
 should this only put if the type is set?  We want to avoid cases where the match data has a value but the type does not.
+
+555
+Thu Feb 28 02:22:15 2013 +0000
+Author: Sungmin Choi <1016953@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: QW2cxcsk
+UUID: QY-83n.c
+Bytes: 143
+If type does not be set, type and data will be set to empty(""). And in TelephonyProviders, default values of Mvno already used empty(""), too.
 
