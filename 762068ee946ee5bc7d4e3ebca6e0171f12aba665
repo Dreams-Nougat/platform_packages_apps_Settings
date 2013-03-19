@@ -23,3 +23,15 @@ If ethernet is really present and there was no data usage so far, mShowEthernet 
 
 How do you think? Best way to fix this issue would be creating hardware feature for ethernet and check it instead but we don't.
 
+2269
+Tue Mar 19 17:31:00 2013 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: R-UW5KtU
+UUID: R-eV3dkw
+Bytes: 479
+thinking about this a bit more, could we just have that "override preferences when no mobile radio" if() block in onCreate() set both mShowWifi and mShowEthernet to true?  as you pointed out, we always check against hasEthernet() later before actually showing any UI.
+
+that should handle the resume-after-traffic case you pointed out.
+
+btw it shouldn't be a hardware feature, since network connections can come/go.  for example, consider a USB ethernet adapter that is transient.
+
