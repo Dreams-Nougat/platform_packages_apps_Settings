@@ -11,3 +11,15 @@ i'd rather fix this by moving the mStatsService.openSession() code into onCreate
 
 it also better matches the lifecycle, since we close the session in onDestroy().
 
+2269
+Tue Mar 19 17:13:34 2013 +0000
+Author: Jaewan Kim <1019013@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: R-WVapv8
+UUID: R-UW5KtU
+Bytes: 688
+Thank you for your review. I forgot to check destroy logic. In that case, I prefer to move closing session to onDestroyView because simply opening session at onCreate would make another issue.
+
+If ethernet is really present and there was no data usage so far, mShowEthernet would be set to false at the onCreate. However, if a user connect ethernet afterwards and resume this view, user would experience the same issue because mShowEthernet variable is checked along with hasEthernet() to determine whether to show ethernet related UIs (context menu and tab).
+
+How do you think? Best way to fix this issue would be creating hardware feature for ethernet and check it instead but we don't.
+
