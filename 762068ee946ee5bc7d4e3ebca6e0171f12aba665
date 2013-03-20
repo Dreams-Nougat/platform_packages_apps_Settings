@@ -35,3 +35,11 @@ that should handle the resume-after-traffic case you pointed out.
 
 btw it shouldn't be a hardware feature, since network connections can come/go.  for example, consider a USB ethernet adapter that is transient.
 
+2269
+Wed Mar 20 02:23:42 2013 +0000
+Author: Jaewan Kim <1019013@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: R-eV3dkw
+UUID: SFqwhQ68
+Bytes: 59
+that sounds more reasonable. thank you for detailed review.
+
