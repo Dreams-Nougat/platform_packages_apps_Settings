@@ -11,3 +11,11 @@ I have to submit this internally as we're adding a new public api, so you don't 
 
 However, I think we should probably set to "" here - the full IMSI is certainly not the right answer and the user probably doesn't know what the right mix of digits and '*' wildcards is.  I don't think we know either, so I think we should show nothing.  What do you think?
 
+379
+Wed Mar 27 17:59:11 2013 +0000
+Author: Sungmin Choi <1016953@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: SkwOdPko
+UUID: Spr-CMyg
+Bytes: 61
+I agree with you. How about use just "*", instead of nothing?
+
