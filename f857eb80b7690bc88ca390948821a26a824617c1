@@ -1,0 +1,13 @@
+Revision: f857eb80b7690bc88ca390948821a26a824617c1
+Patch-set: 1
+File: src/com/android/settings/ApnEditor.java
+
+379
+Wed Mar 27 17:13:37 2013 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: SkwOdPko
+Bytes: 390
+I have to submit this internally as we're adding a new public api, so you don't have to make changes to this change.
+
+However, I think we should probably set to "" here - the full IMSI is certainly not the right answer and the user probably doesn't know what the right mix of digits and '*' wildcards is.  I don't think we know either, so I think we should show nothing.  What do you think?
+
