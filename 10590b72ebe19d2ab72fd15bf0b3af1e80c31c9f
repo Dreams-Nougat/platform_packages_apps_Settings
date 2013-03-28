@@ -1,0 +1,11 @@
+Revision: 10590b72ebe19d2ab72fd15bf0b3af1e80c31c9f
+Patch-set: 1
+File: src/com/android/settings/CredentialStorage.java
+
+85
+Thu Mar 28 18:33:31 2013 +0000
+Author: Kenny Root <1002975@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: Sk8lRlUU
+Bytes: 10
+not needed
+
