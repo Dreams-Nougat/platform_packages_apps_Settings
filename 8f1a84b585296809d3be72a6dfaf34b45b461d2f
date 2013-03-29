@@ -1,0 +1,13 @@
+Revision: 8f1a84b585296809d3be72a6dfaf34b45b461d2f
+Patch-set: 1
+File: res/xml/security_settings_misc.xml
+
+66
+Fri Mar 29 18:27:23 2013 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: SwURuYHo
+Bytes: 110
+Is this purely informational? If so, you can add this style:
+
+style="?android:attr/preferenceInformationStyle"
+
