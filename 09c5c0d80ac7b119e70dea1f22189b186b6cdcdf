@@ -1,0 +1,11 @@
+Revision: 09c5c0d80ac7b119e70dea1f22189b186b6cdcdf
+Patch-set: 1
+File: src/com/android/settings/Settings.java
+
+380
+Mon Apr 01 17:56:59 2013 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: S12vzgWU
+Bytes: 82
+super (PreferenceActivity) doesn't have this method, so this change doesn't build.
+
