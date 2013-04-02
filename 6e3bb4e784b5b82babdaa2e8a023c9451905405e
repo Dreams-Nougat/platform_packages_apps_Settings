@@ -1,0 +1,12 @@
+Revision: 6e3bb4e784b5b82babdaa2e8a023c9451905405e
+Patch-set: 2
+File: src/com/android/settings/deviceinfo/StorageVolumePreferenceCategory.java
+
+254
+Tue Apr 02 10:51:21 2013 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: S3UuOeSM
+Bytes: 64
+This looks like a very strange validation method.
+Is it just me?
+
