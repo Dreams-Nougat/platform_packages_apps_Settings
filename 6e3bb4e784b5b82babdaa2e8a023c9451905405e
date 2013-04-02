@@ -10,3 +10,13 @@ Bytes: 64
 This looks like a very strange validation method.
 Is it just me?
 
+254
+Tue Apr 02 17:20:00 2013 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: S3UuOeSM
+UUID: S7-Z4Hj4
+Bytes: 129
+i'd say always add the preferences; addPreference() will skip them if they've already been added.
+
+so no need for the if() check.
+
