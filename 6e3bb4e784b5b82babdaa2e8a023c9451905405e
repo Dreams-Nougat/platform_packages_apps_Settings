@@ -20,3 +20,11 @@ i'd say always add the preferences; addPreference() will skip them if they've al
 
 so no need for the if() check.
 
+254
+Wed Apr 03 01:00:19 2013 +0000
+Author: Changbo Ahn <1020473@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: S7-Z4Hj4
+UUID: S9I4TO2Y
+Bytes: 92
+I re-checked the codes and I found that if() check is not necessary. I'll remove if() check.
+
