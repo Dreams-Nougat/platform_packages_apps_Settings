@@ -11,3 +11,14 @@ I am perplex at this. The user dictionary is a fundamental part of the system an
 
 In which cases do you see this happen?
 
+56
+Thu Apr 18 04:48:46 2013 +0000
+Author: Yoohyun Choi <1020248@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: TfkfkUDM
+UUID: ThaNvnsQ
+Bytes: 328
+Of course I haven't seen this case in the user dictionary.
+As I know, this is only happened by programming mistakes(when the wrong(or not exist) column is explicitly specified).
+But if the columnIndex is -1, cusor.getString(columnIndex) makes IllegalStatementException.
+So, I think this is must be checked -1 or not like cursor.
+
