@@ -22,3 +22,17 @@ As I know, this is only happened by programming mistakes(when the wrong(or not e
 But if the columnIndex is -1, cusor.getString(columnIndex) makes IllegalStatementException.
 So, I think this is must be checked -1 or not like cursor.
 
+56
+Thu Apr 18 10:15:31 2013 +0000
+Author: Jean Chalard <1015428@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: ThaNvnsQ
+UUID: Tfueg3DM
+Bytes: 603
+All right, I see what you mean.
+
+However, I fear this may mask a possible bug. Many IMEs already rely on this column; if for some reason a device in development has this broken, and the settings application does not crash, it makes it more likely that the bug goes unnoticed with disastrous results.
+
+Besides, a user dictionary without a locale column would be completely useless. To some extent, I think crashing if this happens is the right course of action.
+
+And furthermore, if the settings application just returns null here, it's going to crash later when it tries to read individual words anyway.
+
