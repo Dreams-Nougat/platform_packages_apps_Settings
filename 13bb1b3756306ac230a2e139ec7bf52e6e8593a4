@@ -36,3 +36,13 @@ Besides, a user dictionary without a locale column would be completely useless. 
 
 And furthermore, if the settings application just returns null here, it's going to crash later when it tries to read individual words anyway.
 
+56
+Thu Apr 18 11:49:50 2013 +0000
+Author: Yoohyun Choi <1020248@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: Tfueg3DM
+UUID: ThSZSfBU
+Bytes: 91
+You're right. I'll abandon this commit to let it stay as-is.
+
+Thank you for reviewing this.
+
