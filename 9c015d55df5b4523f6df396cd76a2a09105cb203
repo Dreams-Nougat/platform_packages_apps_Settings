@@ -1,0 +1,12 @@
+Revision: 9c015d55df5b4523f6df396cd76a2a09105cb203
+Patch-set: 1
+File: src/com/android/settings/bluetooth/DevicePickerFragment.java
+
+81
+Mon May 20 11:13:02 2013 +0000
+Author: Aivo Kängsepp <1021824@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: U5H62sco
+Bytes: 67
+This is shorter:
+outState.putBoolean("is_searching", is_searching);
+
