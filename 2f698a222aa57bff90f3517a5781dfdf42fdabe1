@@ -1,0 +1,11 @@
+Revision: 2f698a222aa57bff90f3517a5781dfdf42fdabe1
+Patch-set: 2
+File: src/com/android/settings/wifi/p2p/WifiP2pSettings.java
+
+242
+Wed May 22 17:04:15 2013 +0000
+Author: Dmitry Shmidt <1000414@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: U6J0ip3k
+Bytes: 36
+Is it Ok voluntarily add parameters?
+
