@@ -2,6 +2,13 @@ Revision: 9c015d55df5b4523f6df396cd76a2a09105cb203
 Patch-set: 1
 File: src/com/android/settings/bluetooth/DevicePickerFragment.java
 
+37
+Tue May 28 09:49:18 2013 +0000
+Author: Björn Lundén <1005571@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: VDOrWDxg
+Bytes: 187
+You will have to remove all these "//modify by huaqin" comments. You will already be credited in the commit history so they are pointless, besides making the code slightly harder to read.
+
 81
 Mon May 20 11:13:02 2013 +0000
 Author: Aivo Kängsepp <1021824@85c56323-6fa9-3386-8a01-6480fb634889>
