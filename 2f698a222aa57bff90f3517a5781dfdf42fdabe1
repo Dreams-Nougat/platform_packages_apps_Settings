@@ -9,3 +9,11 @@ UUID: U6J0ip3k
 Bytes: 36
 Is it Ok voluntarily add parameters?
 
+242
+Tue May 28 18:24:50 2013 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: U6J0ip3k
+UUID: VA0JZdHA
+Bytes: 190
+This is an api change.  We would do it not by submitting through AOSP, but rather pulling the change in manually, getting api council approval and having it reach AOSP with the next release.
+
