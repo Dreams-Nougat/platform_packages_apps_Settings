@@ -1,0 +1,13 @@
+Revision: c12a446c87309e5f59c168f6b4103b0881967d43
+Patch-set: 1
+File: src/com/android/settings/wifi/WifiConfigController.java
+
+227
+Mon Jun 03 22:59:27 2013 +0000
+Author: Szymon Jakubczak <1003988@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: bdaa1198_de796500
+Bytes: 137
+nit: Use sentence formatting.
+
+I'm a little bit concerned about this. Perhaps IBSS should by default use automatic private IP addressing.
+
