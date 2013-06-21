@@ -9,6 +9,14 @@ UUID: 8ab421fd_7c35b9ac
 Bytes: 28
 I don't see this being used?
 
+90
+Fri Jun 21 22:29:20 2013 +0000
+Author: Alex Yakavenka <1003902@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 8ab421fd_7c35b9ac
+UUID: 8ab421fd_5c09dd76
+Bytes: 21
+Thanks. Removed this.
+
 367
 Fri Jun 21 20:13:39 2013 +0000
 Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -17,4 +25,12 @@ Bytes: 184
 Is this supposed to be conditional on mUseNvOperatorForEhrpd?
 
 Should we do it here or in TelephonyManager.getSimOperatorNumeric/getNetworkOperatorNumeric or create getOperatorNumeric?
+
+367
+Fri Jun 21 22:29:20 2013 +0000
+Author: Alex Yakavenka <1003902@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 8ab421fd_fc47892e
+UUID: 8ab421fd_bcf10156
+Bytes: 57
+No. mUseNvOperatorForEhrpd should really be removed here.
 
