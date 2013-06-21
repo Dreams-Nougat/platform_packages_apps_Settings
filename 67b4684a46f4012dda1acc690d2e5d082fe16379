@@ -1,0 +1,20 @@
+Revision: 67b4684a46f4012dda1acc690d2e5d082fe16379
+Patch-set: 1
+File: src/com/android/settings/ApnSettings.java
+
+90
+Fri Jun 21 20:13:39 2013 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 8ab421fd_7c35b9ac
+Bytes: 28
+I don't see this being used?
+
+367
+Fri Jun 21 20:13:39 2013 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 8ab421fd_fc47892e
+Bytes: 184
+Is this supposed to be conditional on mUseNvOperatorForEhrpd?
+
+Should we do it here or in TelephonyManager.getSimOperatorNumeric/getNetworkOperatorNumeric or create getOperatorNumeric?
+
