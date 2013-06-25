@@ -9,3 +9,13 @@ UUID: 2a0df5e9_62cb8c47
 Bytes: 328
 We have seen issues with seting date prior 1980. Setting e.g. 1976 would cause the kernel to actually set 1970 and later weird things would happen. The internal issue is however old and I am not sure if this is still an issue. For safety sake I'd have selected 1980 here though (maybe based on a little bit of superstition also)
 
+263
+Tue Jun 25 16:53:20 2013 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 2a0df5e9_62cb8c47
+UUID: 8afc21ee_bfde5361
+Bytes: 337
+we haven't had other complaints, so i wonder if that was a bad driver/RTC hardware in one particular device? if you can reproduce that, we should investigate, but for now i'll stick with the 1970-01-01 cutoff from the original code.
+
+(do we have CTS tests for the minimum range that the system clock can support? seems like we ought to.)
+
