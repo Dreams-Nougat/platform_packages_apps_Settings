@@ -1,0 +1,11 @@
+Revision: b85d48fa43e5f7b98492c2ee313f51c072f5ddd8
+Patch-set: 2
+File: src/com/android/settings/DateTimeSettings.java
+
+263
+Tue Jun 25 06:15:09 2013 +0000
+Author: Johan Redestig <1002951@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 2a0df5e9_62cb8c47
+Bytes: 328
+We have seen issues with seting date prior 1980. Setting e.g. 1976 would cause the kernel to actually set 1970 and later weird things would happen. The internal issue is however old and I am not sure if this is still an issue. For safety sake I'd have selected 1980 here though (maybe based on a little bit of superstition also)
+
