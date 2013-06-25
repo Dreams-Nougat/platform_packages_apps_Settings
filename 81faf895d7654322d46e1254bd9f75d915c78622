@@ -1,0 +1,17 @@
+Revision: 81faf895d7654322d46e1254bd9f75d915c78622
+Patch-set: 1
+File: src/com/android/settings/DateTimeSettings.java
+
+377
+Tue Jun 25 17:19:43 2013 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 8afc21ee_5f53cfeb
+Bytes: 128
+basically:
+
+  Z, ZZ, and ZZZ == -0800
+  ZZZZ == GMT-08:00
+  ZZZZZ == -08:00
+
+so ZZZZ or 'GMT'ZZZZZ would both give what we want.
+
