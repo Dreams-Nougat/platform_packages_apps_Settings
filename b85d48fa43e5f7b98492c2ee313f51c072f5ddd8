@@ -19,3 +19,11 @@ we haven't had other complaints, so i wonder if that was a bad driver/RTC hardwa
 
 (do we have CTS tests for the minimum range that the system clock can support? seems like we ought to.)
 
+263
+Tue Jun 25 19:05:45 2013 +0000
+Author: Johan Redestig <1002951@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 8afc21ee_bfde5361
+UUID: 2ab2555c_f15be837
+Bytes: 15
+Ok, fine by me.
+
