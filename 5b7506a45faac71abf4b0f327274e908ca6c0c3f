@@ -1,0 +1,27 @@
+Revision: 5b7506a45faac71abf4b0f327274e908ca6c0c3f
+Patch-set: 2
+File: /COMMIT_MSG
+
+9
+Wed Jul 10 16:03:55 2013 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 27c53079_99541b31
+Bytes: 51
+please break the commit message into multiple lines
+
+File: src/com/android/settings/wifi/WifiConfigController.java
+
+196
+Wed Jul 10 16:03:55 2013 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 27c53079_b928ffa2
+Bytes: 16
+line is too long
+
+251
+Wed Jul 10 16:03:55 2013 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 27c53079_992d3bb3
+Bytes: 9
+long line
+
