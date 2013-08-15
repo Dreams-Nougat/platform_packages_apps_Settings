@@ -1,0 +1,21 @@
+Revision: dd7e723e73a5aed1ccc1e6eb55d8874706b2d49c
+Patch-set: 1
+File: src/com/android/settings/bluetooth/DeviceProfilesSettings.java
+
+110
+Thu Aug 15 16:16:18 2013 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: f8773c7c_9680ccf4
+Bytes: 18
+Add space after //
+
+113
+Thu Aug 15 16:16:18 2013 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: f8773c7c_f67f401b
+Bytes: 47
+Need spaces around { } - 
+try {
+...
+} catch() {
+
