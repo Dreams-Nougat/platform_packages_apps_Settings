@@ -1,0 +1,46 @@
+Revision: 04487594d73c89aa53548e6ad864e40d15324c62
+Patch-set: 2
+File: src/com/android/settings/DateTimeSettings.java
+
+387
+Thu Sep 19 00:05:28 2013 +0000
+Author: Fabrice Di Meglio <1005088@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: c42537aa_41050224
+Bytes: 66
+What about using a StringBuilder for removing extra String alloc ?
+
+393
+Thu Sep 19 00:05:28 2013 +0000
+Author: Fabrice Di Meglio <1005088@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 64356bd1_618a4017
+Bytes: 79
+StringBuilder result = bidiFormatter.unicodeWrap(gmtFormatter.format(now), ...)
+
+397
+Thu Sep 19 00:05:28 2013 +0000
+Author: Fabrice Di Meglio <1005088@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 0444af55_03cb7e5f
+Bytes: 25
+return result.toString();
+
+403
+Thu Sep 19 00:05:28 2013 +0000
+Author: Fabrice Di Meglio <1005088@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: c42537aa_e1498e65
+Bytes: 382
+result.append(" ");
+result.append(zoneNameFormatter.format(now));
+
+return result.toString();
+
+I think you even factorize more the full part of the code with:
+
+if (includeName) {
+  SimpleDateFormat zoneNameFormatter = new SimpleDateFormat("zzzz");
+  zoneNameFormatter.setTimeZone(tz);
+  result.append(" ");
+  result.append(zoneNameFormatter.format(now));
+}
+
+return result.toString();
+
