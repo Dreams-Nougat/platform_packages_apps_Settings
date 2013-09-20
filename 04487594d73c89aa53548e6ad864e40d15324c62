@@ -9,6 +9,14 @@ UUID: c42537aa_41050224
 Bytes: 66
 What about using a StringBuilder for removing extra String alloc ?
 
+387
+Fri Sep 20 20:44:32 2013 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: c42537aa_41050224
+UUID: c4aa9752_a50b7ee2
+Bytes: 173
+it's not worth the extra code compared to all the other allocation going on here. if allocations are a problem, we need to do this completely differently. (but they're not.)
+
 393
 Thu Sep 19 00:05:28 2013 +0000
 Author: Fabrice Di Meglio <1005088@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -43,4 +51,12 @@ if (includeName) {
 }
 
 return result.toString();
+
+403
+Fri Sep 20 20:44:32 2013 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: c42537aa_e1498e65
+UUID: a4a76389_c4cebe4e
+Bytes: 181
+we can remove all this when we switch to the Calendar time zone picker. that code doesn't need to stitch the two things together at all (they're placed in separate parts of the UI).
 
