@@ -9,3 +9,11 @@ UUID: 641c8bfb_d48354ff
 Bytes: 206
 I would feel better doing the same MVNO matching we do in DcTracker.  I'm nervous that the prefered APN data may not be applicable with the current SIM or is somehow out of sync showing the wrong APNs here.
 
+194
+Sat Sep 28 01:49:40 2013 +0000
+Author: Sungmin Choi <1016953@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 641c8bfb_d48354ff
+UUID: e446bbef_beb9d9be
+Bytes: 114
+I couldn't find way to use IccRecord API in here. So I use preferred APN data. And in our test, it works properly.
+
