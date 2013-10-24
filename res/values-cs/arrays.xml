@@ -344,7 +344,7 @@
     <item msgid="1069584980746680398">"Měřítko animace 10x"</item>
   </string-array>
   <string-array name="overlay_display_devices_entries">
-    <item msgid="1606809880904982133">"Žádné"</item>
+    <item msgid="1606809880904982133">"Žádný"</item>
     <item msgid="688482401508173818">"720x480 mdpi"</item>
     <item msgid="1725473474827398815">"1280x720 tvdpi"</item>
     <item msgid="6813511923592083251">"1920x1080 xhdpi"</item>
