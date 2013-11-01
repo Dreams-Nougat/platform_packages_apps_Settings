@@ -1,0 +1,11 @@
+Revision: 7e7769989589df86ec970a87dff7fdd160f9ccb2
+Patch-set: 1
+File: src/com/android/settings/DisplaySettings.java
+
+74
+Fri Nov 01 09:53:24 2013 +0000
+Author: Shuhrat Dehkanov <1005255@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 1efb2135_be9619e9
+Bytes: 102
+Sorry about the white space changes, the editor was set to automatically remove trailing white spaces.
+
