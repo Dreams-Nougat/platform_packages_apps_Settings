@@ -1,0 +1,18 @@
+Revision: f7cb4b0dda7fcf46df4c912c26bfafd391b74539
+Patch-set: 1
+File: src/com/android/settings/fuelgauge/Utils.java
+
+38
+Fri Jan 03 21:04:09 2014 +0000
+Author: Narayan Kamath <1014443@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 0dabf957_25eb0e23
+Bytes: 30
+why is millis floating point ?
+
+39
+Fri Jan 03 21:04:09 2014 +0000
+Author: Narayan Kamath <1014443@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 2daefd65_06e61a5c
+Bytes: 137
+You could consider getting rid of the StringBuilder, it's never used for "building" strings. There's always a maximum of 1 call to append
+
