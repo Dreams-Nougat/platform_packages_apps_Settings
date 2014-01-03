@@ -9,10 +9,28 @@ UUID: 0dabf957_25eb0e23
 Bytes: 30
 why is millis floating point ?
 
+38
+Fri Jan 03 21:28:07 2014 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 0dabf957_25eb0e23
+UUID: 2d80bdc3_59ace773
+Bytes: 35
+"it was like that when i found it".
+
 39
 Fri Jan 03 21:04:09 2014 +0000
 Author: Narayan Kamath <1014443@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 2daefd65_06e61a5c
 Bytes: 137
 You could consider getting rid of the StringBuilder, it's never used for "building" strings. There's always a maximum of 1 call to append
+
+39
+Fri Jan 03 21:28:07 2014 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 2daefd65_06e61a5c
+UUID: 0d7db99f_b8c65531
+Bytes: 321
+i think the real way forward for this code is to extend DateUtils to provide this and then just remove this class.
+
+in DateUtils, we should call down to icu4c so there will be no StringBuilder (and we'll just use a long rather than a double), but we're blocked on icu4c; i'm not 100% sure CLDR has everything we need yet.
 
