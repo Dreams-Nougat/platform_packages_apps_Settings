@@ -1,0 +1,11 @@
+Revision: 009e69752315c8d1e7dd8af04649fbc56297f72f
+Patch-set: 1
+File: Android.mk
+
+31:2-31:6
+Fri Jan 17 02:46:54 2014 +0000
+Author: Sam Blitzstein <1018975@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 8d37e9c2_2fbded98
+Bytes: 113
+Actually I think we do it manually as well, by just including duplicates of the assets in our built-in assets dir
+
