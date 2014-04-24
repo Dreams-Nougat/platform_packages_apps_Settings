@@ -1,0 +1,11 @@
+Revision: 07d0dedffea9c2e7f62380c8925b29903fef7e41
+Patch-set: 3
+File: src/com/android/settings/Settings.java
+
+590:16-590:24
+Thu Apr 24 05:13:30 2014 +0000
+Author: Martijn Coenen <1013030@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: a5104b96_bd29aff0
+Bytes: 232
+if you take this branch, it means hasSystemFeature(PackageManager.FEATURE_NFC) returned true. This means you have the NFC feature, which in turn means getDefaultAdapter() should never return null. Are you seeing cases where it does?
+
