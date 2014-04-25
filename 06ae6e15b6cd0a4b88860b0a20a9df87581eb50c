@@ -1,0 +1,11 @@
+Revision: 06ae6e15b6cd0a4b88860b0a20a9df87581eb50c
+Patch-set: 1
+File: src/com/android/settings/applications/RunningState.java
+
+847
+Fri Apr 25 17:22:53 2014 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 25a61bd4_3f24c712
+Bytes: 71
+Could you use getString(R.string.unknown) to ensure this is translated?
+
