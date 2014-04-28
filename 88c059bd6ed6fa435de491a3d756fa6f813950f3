@@ -1,0 +1,20 @@
+Revision: 88c059bd6ed6fa435de491a3d756fa6f813950f3
+Patch-set: 2
+File: src/com/android/settings/IccLockSettings.java
+
+114:46-114:47
+Mon Apr 28 07:08:33 2014 +0000
+Author: Pengfei Han <1015047@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 0530377d_390acb85
+Bytes: 81
+Can we finish the IccLockSettings activity when the airplane mode was swiched on?
+
+File: src/com/android/settings/SecuritySettings.java
+
+130:40-130:64
+Mon Apr 28 07:08:33 2014 +0000
+Author: Pengfei Han <1015047@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 0530377d_f91a13d4
+Bytes: 49
+Can we merge the if block and else-if block here?
+
