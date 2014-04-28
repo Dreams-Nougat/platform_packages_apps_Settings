@@ -1,5 +1,14 @@
 Revision: 88c059bd6ed6fa435de491a3d756fa6f813950f3
 Patch-set: 2
+File: /COMMIT_MSG
+
+10:71-10:72
+Mon Apr 28 07:46:58 2014 +0000
+Author: Jeevaka Prabu Badrappan <1010938@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 0575973d_2e5127e9
+Bytes: 22
+remove the extra space
+
 File: src/com/android/settings/IccLockSettings.java
 
 114:46-114:47
@@ -9,6 +18,14 @@ UUID: 0530377d_390acb85
 Bytes: 81
 Can we finish the IccLockSettings activity when the airplane mode was swiched on?
 
+114:46-114:47
+Mon Apr 28 07:46:58 2014 +0000
+Author: Jeevaka Prabu Badrappan <1010938@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 0530377d_390acb85
+UUID: e52c0330_9545e459
+Bytes: 31
+not recommended to use finish()
+
 File: src/com/android/settings/SecuritySettings.java
 
 130:40-130:64
@@ -17,4 +34,12 @@ Author: Pengfei Han <1015047@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 0530377d_f91a13d4
 Bytes: 49
 Can we merge the if block and else-if block here?
+
+130:40-130:64
+Mon Apr 28 07:46:58 2014 +0000
+Author: Jeevaka Prabu Badrappan <1010938@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 0530377d_f91a13d4
+UUID: c529bf20_5433cce8
+Bytes: 116
+yes, can be merged. As updateSimPreferences takes care of sim state checking, no need to have the lines from 131-136
 
