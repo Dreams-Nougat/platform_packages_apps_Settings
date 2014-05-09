@@ -1,0 +1,18 @@
+Revision: 5a4be836fa6ca4e78c7e69b3786148a5014b7faf
+Patch-set: 1
+File: src/com/android/settings/DevelopmentSettings.java
+
+998:4-1007:5
+Fri May 09 20:03:30 2014 +0000
+Author: Mark Salyzyn <1032276@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 0aabe49e_e103602d
+Bytes: 107
+This is not being called! (property not set, no evidence logcat -b all -G was called for the runtime-side).
+
+1335:18-1335:43
+Fri May 09 20:03:30 2014 +0000
+Author: Mark Salyzyn <1032276@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: cab46cfe_3c673163
+Bytes: 34
+suspect this is not 'matching' ...
+
