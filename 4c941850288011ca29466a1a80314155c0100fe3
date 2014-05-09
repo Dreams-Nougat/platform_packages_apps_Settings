@@ -1,0 +1,11 @@
+Revision: 4c941850288011ca29466a1a80314155c0100fe3
+Base-for-patch-set: 3
+File: src/com/android/settings/SecuritySettings.java
+
+233:8-235:9
+Fri May 09 20:56:48 2014 +0000
+Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: cacd4ca8_b49c805e
+Bytes: 77
+This code needs to be in the change too.  It's for devices without SIM cards.
+

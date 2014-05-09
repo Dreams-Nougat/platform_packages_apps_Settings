@@ -1,0 +1,11 @@
+Revision: dc38aae60822c05c9ad05d307dbbef21a9b45360
+Patch-set: 3
+File: src/com/android/settings/SecuritySettings.java
+
+124:16-124:38
+Fri May 09 20:56:48 2014 +0000
+Author: Jim Miller <1004017@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: cacd4ca8_14d574ed
+Bytes: 96
+This should update sim prefs with the data passed in the ss field from ACTION_SIM_STATE_CHANGED.
+
