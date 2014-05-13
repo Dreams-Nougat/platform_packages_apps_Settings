@@ -9,3 +9,11 @@ UUID: cacd4ca8_b49c805e
 Bytes: 77
 This code needs to be in the change too.  It's for devices without SIM cards.
 
+233:8-235:9
+Tue May 13 07:05:21 2014 +0000
+Author: Jeevaka Prabu Badrappan <1010938@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: cacd4ca8_b49c805e
+UUID: aa26584d_d9fe33d4
+Bytes: 116
+hasIccCard returns false if the card state is absent. So, the check for absent state in line no: 237 is not correct.
+
