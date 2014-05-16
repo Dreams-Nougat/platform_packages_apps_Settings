@@ -1,0 +1,13 @@
+Revision: af3d7c40de3182affbbf856000f847424b65b0f7
+Patch-set: 1
+File: src/com/android/settings/CryptKeeperSettings.java
+
+85
+Fri May 16 15:57:36 2014 +0000
+Author: Paul Lawrence <1044551@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 6a4e2058_79624994
+Bytes: 152
+Don't encode this kind of formatting. Instead use a format string. This does not internationalize well.
+
+Suggestion: Also display current battery level.
+
