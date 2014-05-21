@@ -1,0 +1,11 @@
+Revision: fd60ce64f1c81fe61979e1a602ad90e65567ccfc
+Patch-set: 1
+File: src/com/android/settings/deviceinfo/Status.java
+
+419
+Wed May 21 03:36:10 2014 +0000
+Author: Wink Saville <1001401@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: ff281483_eb4ba692
+Bytes: 220
+Please check who else calls getState and see if we can put this logic directly in getState? Also, check for uses of STATE_OUT_OF_SERVICE and STATE_IN_SERVICE and see if this logic is used else where, I think it might be.
+
