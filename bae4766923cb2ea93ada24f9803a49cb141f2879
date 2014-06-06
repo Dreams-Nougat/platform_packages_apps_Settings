@@ -1,0 +1,13 @@
+Revision: bae4766923cb2ea93ada24f9803a49cb141f2879
+Patch-set: 3
+File: src/com/android/settings/DevelopmentSettings.java
+
+975:20-975:42
+Fri Jun 06 19:50:06 2014 +0000
+Author: Mark Salyzyn <1032276@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 7f33447f_1837991b
+Bytes: 377
+Maybe we should ask logd what its current settings are at? "logcat -b all -g" will report, if they are all identical limits, use that? This will deal with adjustments in logd's default in the future.
+
+Currently, hard coded in logd at 256K and is meant to be controlled by ro.logd.size (SELECT_LOGD_DEFAULT_SIZE_PROPERTY) per-platform if otherwise; so this works fine for today.
+
