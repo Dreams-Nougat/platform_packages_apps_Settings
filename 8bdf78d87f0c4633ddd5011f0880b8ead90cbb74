@@ -1,0 +1,43 @@
+Revision: 8bdf78d87f0c4633ddd5011f0880b8ead90cbb74
+Patch-set: 1
+File: res/values/strings.xml
+
+144
+Wed Jun 11 20:33:41 2014 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 3f854c8a_67b0e179
+Bytes: 81
+For consistency, please place this near where sd_format_summary is defined below.
+
+2075
+Wed Jun 11 20:33:41 2014 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 1f8a489d_fe0f1801
+Bytes: 67
+"so you can safely remove it" still seems relevant in this message.
+
+2082
+Wed Jun 11 20:33:41 2014 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 1f8a489d_5e0724e7
+Bytes: 132
+None of the usb_* strings should have a 'product="default"' attribute, since they shouldn't change based on a phone/tablet/nosdcard.
+
+2122
+Wed Jun 11 20:33:41 2014 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 5f804079_ea467686
+Bytes: 191
+This phrase is not fully relevant for USB mass storage devices connected to the Android device, since we don't support storing apps on them.  I think we're fine without a confirmation dialog.
+
+File: src/com/android/settings/deviceinfo/Memory.java
+
+370
+Wed Jun 11 20:33:41 2014 +0000
+Author: Jeff Sharkey <1006166@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 5f804079_edd9308f
+Bytes: 274
+Please don't try determining this by scraping the description.  If you want to support USB mass storage, we should be adding first-class support to the StorageVolume object.
+
+In addition, we should build out support for n simultaneous USB mass storage devices, not just one.
+
