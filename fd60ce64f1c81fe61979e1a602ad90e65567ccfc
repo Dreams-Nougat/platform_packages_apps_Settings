@@ -9,3 +9,13 @@ UUID: ff281483_eb4ba692
 Bytes: 220
 Please check who else calls getState and see if we can put this logic directly in getState? Also, check for uses of STATE_OUT_OF_SERVICE and STATE_IN_SERVICE and see if this logic is used else where, I think it might be.
 
+419
+Thu Jun 12 22:41:51 2014 +0000
+Author: Hariprasad Jayakumar <1018623@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: ff281483_eb4ba692
+UUID: 7f49844c_f59e5253
+Bytes: 335
+ServiceState.getState() is called from many places, especially before proceeding with dial operation (canDial() method). Since the getState() has to return only the voiceRegState in this occurance, this logic cannot be moved to getState() method.
+
+Also, this change is more of adding information in UI than doing any functional change.
+
