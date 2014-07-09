@@ -1,0 +1,18 @@
+Revision: c87d84ac307e674a648bda8bce5abf5f28e24d3c
+Patch-set: 3
+File: src/com/android/settings/DevelopmentSettings.java
+
+661:36-661:37
+Wed Jul 09 15:24:14 2014 +0000
+Author: Ian Rogers <1010118@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: f9f75445_7d7777ad
+Bytes: 2
+ws
+
+741:57-741:58
+Wed Jul 09 15:24:14 2014 +0000
+Author: Ian Rogers <1010118@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: d9045004_3c421155
+Bytes: 2
+ws
+
