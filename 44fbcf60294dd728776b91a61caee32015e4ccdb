@@ -1,0 +1,16 @@
+Revision: 44fbcf60294dd728776b91a61caee32015e4ccdb
+Patch-set: 3
+File: res/values/strings.xml
+
+761
+Fri Jul 25 15:02:25 2014 +0000
+Author: Paul Lawrence <1044551@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: f974b47c_ef9e7d12
+Bytes: 378
+It's helpful to put xliff:g here like this:
+
+<string name="crypt_keeper_min_battery_capacity_text>
+The mimimum battery capacity requirement is <xliff:g id="percent" example="80">^1</xliff:g>%. Current level is <xliff:g id="percent" example="50">^1</xliff:g>%.</string>
+
+It has no programmatic significance so far as I know, but it's supposed to help the translators get context.
+
