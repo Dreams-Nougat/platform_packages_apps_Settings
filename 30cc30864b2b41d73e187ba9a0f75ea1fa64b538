@@ -1,0 +1,11 @@
+Revision: 30cc30864b2b41d73e187ba9a0f75ea1fa64b538
+Patch-set: 1
+File: src/com/android/settings/DateTimeSettings.java
+
+165
+Fri Nov 14 19:29:19 2014 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 3a972356_32b06884
+Bytes: 55
+(this makes the code order match the visible UI order.)
+
