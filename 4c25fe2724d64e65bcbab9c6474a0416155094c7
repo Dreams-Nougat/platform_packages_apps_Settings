@@ -17,3 +17,11 @@ UUID: ff82dd17_cddcdd9a
 Bytes: 236
 I thought about that as well. But this is different from the RemoteException case because absence of USB service is not an error (it simply implies that the device does not support USB connection), thus Log.e() might not be appropriate.
 
+730
+Tue Dec 02 10:25:15 2014 +0000
+Author: David Turner <1000411@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: ff82dd17_cddcdd9a
+UUID: 3f70f517_87b9e84f
+Bytes: 20
+Makes sense, thanks.
+
