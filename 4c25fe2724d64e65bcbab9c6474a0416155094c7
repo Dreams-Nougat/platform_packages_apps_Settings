@@ -1,0 +1,11 @@
+Revision: 4c25fe2724d64e65bcbab9c6474a0416155094c7
+Patch-set: 1
+File: src/com/android/settings/applications/InstalledAppDetails.java
+
+730
+Tue Dec 02 10:14:58 2014 +0000
+Author: David Turner <1000411@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 5f8a0930_1058cad0
+Bytes: 121
+Wouldn't it be simpler to make the catch below generic instead to ensure that the NullPointerException is caught as well?
+
