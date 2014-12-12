@@ -1,0 +1,25 @@
+Revision: 43ad9db239f55990e0a91b0944d28bc1f0054feb
+Patch-set: 1
+File: tests/src/com/android/settings/vpn2/VpnTests.java
+
+45:11-45:17
+Fri Dec 12 14:19:06 2014 +0000
+Author: Neil Fuller <1038039@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: e497b25c_a57c48de
+Bytes: 29
+Can remove some of these now?
+
+100:20-100:30
+Fri Dec 12 14:19:06 2014 +0000
+Author: Neil Fuller <1038039@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: e497b25c_c5774cf9
+Bytes: 4
+Wow.
+
+238:30-238:43
+Fri Dec 12 14:19:06 2014 +0000
+Author: Neil Fuller <1038039@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 84f436d2_52955249
+Bytes: 18
+disconnect at end?
+
