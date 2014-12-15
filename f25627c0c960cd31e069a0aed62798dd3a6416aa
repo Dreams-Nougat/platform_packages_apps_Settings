@@ -11,3 +11,11 @@ factor this out into one of Settings' many "Utils" classes?
 
 (its ping friends too?)
 
+388
+Mon Dec 15 13:32:22 2014 +0000
+Author: Narayan Kamath <1014443@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 840d16be_4d85ad97
+UUID: e4adf2fd_552bbe98
+Bytes: 132
+I started cleaning up some of the surrounding code but stopped since the change was getting too gnarly. I'll do this in a follow up.
+
