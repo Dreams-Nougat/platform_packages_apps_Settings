@@ -1,0 +1,11 @@
+Revision: aaca0ce1891e2b815af743bdf52ba8d7f77357d6
+Patch-set: 1
+File: src/com/android/settings/DeviceAdminAdd.java
+
+262
+Tue Jan 27 00:12:57 2015 +0000
+Author: Amith Yamasani <1001986@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: b7ec137b_a7e84e80
+Bytes: 60
+Remove tab characters here and below. Should be spaces only.
+
