@@ -1,0 +1,11 @@
+Revision: cfad6fc1ff4cc23582d8d1a6cb8371ea32c82544
+Base-for-patch-set: 3
+File: src/com/android/settings/bluetooth/BluetoothSettings.java
+
+102:22-102:27
+Mon Mar 23 09:40:02 2015 +0000
+Author: Mathias Jeppsson <1005450@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: c61c8421_768d10c8
+Bytes: 27
+'state' is not used anymore
+
