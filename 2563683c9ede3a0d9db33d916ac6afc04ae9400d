@@ -1,0 +1,11 @@
+Revision: 2563683c9ede3a0d9db33d916ac6afc04ae9400d
+Patch-set: 1
+File: src/com/android/settings/deviceinfo/ImeiInformation.java
+
+67
+Wed May 06 15:31:22 2015 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: cd24a5a6_d079c4c0
+Bytes: 11
+whitespace.
+
