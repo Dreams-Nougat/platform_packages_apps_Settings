@@ -9,3 +9,11 @@ UUID: 7948e0a0_3ef48583
 Bytes: 240
 This would mean that any photo set explicitly from Settings->Users will be overridden by the default. Not sure if we want that. Earlier MeProfile was the only way to set the photo, but now (in L) you can do it directly from Settings->Users.
 
+45
+Wed Jun 03 19:17:34 2015 +0000
+Author: Johan Redestig <1002951@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 7948e0a0_3ef48583
+UUID: b9a97860_471e45f0
+Bytes: 117
+That would happen only when copyMeProfilePhoto fails, right? Does it not make sense to reset to default in that case?
+
