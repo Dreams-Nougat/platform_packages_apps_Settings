@@ -17,3 +17,11 @@ UUID: b9a97860_471e45f0
 Bytes: 117
 That would happen only when copyMeProfilePhoto fails, right? Does it not make sense to reset to default in that case?
 
+45
+Thu Jun 04 11:35:06 2015 +0000
+Author: Johan Redestig <1002951@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: b9a97860_471e45f0
+UUID: d9f1cca3_77e80275
+Bytes: 201
+Aslo, the change just follows the pattern in UserSettings#assignProfilePhoto (https://android.googlesource.com/platform/packages/apps/Settings/+/master/src/com/android/settings/users/UserSettings.java)
+
