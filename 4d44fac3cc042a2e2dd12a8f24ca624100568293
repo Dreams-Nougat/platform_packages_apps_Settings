@@ -9,3 +9,13 @@ UUID: 19afe490_81f3a098
 Bytes: 40
 won't this always be true because of AU?
 
+262
+Fri Jun 05 15:20:17 2015 +0000
+Author: Neil Fuller <1038039@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 19afe490_81f3a098
+UUID: 19afe490_e1b8dcb4
+Bytes: 238
+It will be true for AU's data, false for others (e.g. UK, not checked China because I lack the language).
+
+This logic is run every time the list is generated so it depends on the user's locale (which affects the contents of localZoneIds).
+
