@@ -19,3 +19,19 @@ It will be true for AU's data, false for others (e.g. UK, not checked China beca
 
 This logic is run every time the list is generated so it depends on the user's locale (which affects the contents of localZoneIds).
 
+262
+Fri Jun 05 16:13:42 2015 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 19afe490_e1b8dcb4
+UUID: 39b828d4_c20598c6
+Bytes: 1058
+oh, because the Settings list doesn't contain all the AU zones, but L246-249 adds them _if_ your locale is AU. maybe rewrite the L246 comment to something like "all the time zones used in the user's locale, whether they're in Settings' list or not"?
+
+i guess i'm just surprised that some ambiguous time zones affect the display of _all_ time zones. i literally meant something like
+
+  if (locale.getCountry().equals("AU") && TimeZoneNames.forLocale(locale).contains(olsonId)) // use examplar...
+
+then when i read your checkin comment i thought you were going to do something cleverer where you'd drop the equals("AU") and just say "if the user's country has ambiguity, avoid it" which sounds good. but i'm having trouble working out whether "if any country has ambiguity, avoid it for all countries" is different. i'm now leaning towards it *not* being different because other countries were already using examplars, so only the user's country can be affected by this.
+
+but that was too subtle for my little brain, so i'd definitely add a comment explaining.
+
