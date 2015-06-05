@@ -1,0 +1,11 @@
+Revision: 4d44fac3cc042a2e2dd12a8f24ca624100568293
+Patch-set: 1
+File: src/com/android/settings/ZonePicker.java
+
+262
+Fri Jun 05 15:16:52 2015 +0000
+Author: Elliott Hughes <1003224@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 19afe490_81f3a098
+Bytes: 40
+won't this always be true because of AU?
+
