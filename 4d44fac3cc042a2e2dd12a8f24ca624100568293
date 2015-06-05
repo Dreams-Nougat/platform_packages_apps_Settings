@@ -35,3 +35,23 @@ then when i read your checkin comment i thought you were going to do something c
 
 but that was too subtle for my little brain, so i'd definitely add a comment explaining.
 
+262
+Fri Jun 05 16:49:28 2015 +0000
+Author: Neil Fuller <1038039@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 39b828d4_c20598c6
+UUID: 39b828d4_a2226430
+Bytes: 958
+I started by special casing "AU" but as mentioned I didn't like the special casing. The rule will apply where there's ambiguity, and AU triggers that.
+
+246-249 has no effect on the final list. We always output all entries we were told to by the config. The only question is whether we display the "long name" or the "exemplar location" for the local olsonIds.
+
+Agree the logic below is confusing. I think because "use  location" is actually the common/default case.
+
+The way I thought about it was:
+
+exemplar location used when: "olsonId is non local" OR ("olson id is local" (implied) AND longNamesAreAmbiguous)
+
+I flipped the order of the preferLocationDisplayName check because the longNamesAreAmbiguous check is cheapest. Most cases it *will* be false, though so we'll fall through to "is local". It should still mean that the only time we use the long name is when the timezone is local AND long names ARE NOT ambiguous.
+
+I'll look at making it clearer.
+
