@@ -1,0 +1,46 @@
+Revision: 2be5115dc126b06f9725c6018a7b0c053d0e40d4
+Patch-set: 1
+File: src/com/android/settings/wifi/WifiConfigController.java
+
+236
+Tue Jun 30 06:49:58 2015 +0000
+Author: Rayhaan Jaufeerally <1059423@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 13b505ac_eb44edcc
+Bytes: 7
+Remove.
+
+518
+Tue Jun 30 06:49:58 2015 +0000
+Author: Rayhaan Jaufeerally <1059423@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: d3ae0d65_2951a9da
+Bytes: 7
+Remove.
+
+533
+Tue Jun 30 06:49:58 2015 +0000
+Author: Rayhaan Jaufeerally <1059423@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: b3a99960_e82e2b48
+Bytes: 7
+Remove.
+
+936
+Tue Jun 30 06:49:58 2015 +0000
+Author: Rayhaan Jaufeerally <1059423@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: b3a99960_882bf736
+Bytes: 7
+Remove.
+
+940
+Tue Jun 30 06:49:58 2015 +0000
+Author: Rayhaan Jaufeerally <1059423@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: f3b791b3_ca932329
+Bytes: 7
+Remove.
+
+944
+Tue Jun 30 06:49:58 2015 +0000
+Author: Rayhaan Jaufeerally <1059423@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 13b505ac_8b41b1bb
+Bytes: 7
+Remove.
+
