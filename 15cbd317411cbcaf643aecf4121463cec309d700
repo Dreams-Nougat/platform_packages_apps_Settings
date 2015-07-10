@@ -17,3 +17,20 @@ See comment in ToggleAccessibilityServicePreferenceFragment:
 
 // Since we came here asynchronously, check encryption again.
 
+153:8-154:65
+Fri Jul 10 22:57:38 2015 +0000
+Author: Jianwei J Yang <1076415@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 789c5e2a_afe4c1cf
+UUID: 98cf5247_4fc43109
+Bytes: 753
+Where is Unset (-1) used? Can you please elaborate more? 
+In ToggleAccessibilityServicePreferenceFragment, where do we check the value of REQUIRE_PASSWORD_TO_DECRYPT? I only see we set it to 0.
+===========================================================
+                // The user confirmed that they accept weaker encryption when
+                // enabling the accessibility service, so change encryption.
+                // Since we came here asynchronously, check encryption again.
+                if (LockPatternUtils.isDeviceEncrypted()) {
+                    mLockPatternUtils.clearEncryptionPassword();
+                    Settings.Global.putInt(getContentResolver(),
+                            Settings.Global.REQUIRE_PASSWORD_TO_DECRYPT, 0);
+
