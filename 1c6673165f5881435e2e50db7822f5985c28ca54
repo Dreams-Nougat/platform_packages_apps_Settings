@@ -1,0 +1,11 @@
+Revision: 1c6673165f5881435e2e50db7822f5985c28ca54
+Patch-set: 3
+File: src/com/android/settings/deviceinfo/UsbModeChooserActivity.java
+
+73
+Fri Oct 30 12:28:53 2015 +0000
+Author: Jason Monk <1042886@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 963d79a1_54b804ac
+Bytes: 20
+This is missing PTP.
+
