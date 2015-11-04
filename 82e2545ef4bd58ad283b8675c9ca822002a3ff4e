@@ -1,0 +1,11 @@
+Revision: 82e2545ef4bd58ad283b8675c9ca822002a3ff4e
+Patch-set: 6
+File: src/com/android/settings/deviceinfo/UsbBackend.java
+
+143
+Wed Nov 04 14:16:35 2015 +0000
+Author: Jason Monk <1042886@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 9653ba54_3b22e3e6
+Bytes: 84
+Can we flip this to if (!mMidi && ...?  That way it will match the restricted check.
+
