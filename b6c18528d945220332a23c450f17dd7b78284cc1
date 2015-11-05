@@ -1,0 +1,20 @@
+Revision: b6c18528d945220332a23c450f17dd7b78284cc1
+Patch-set: 2
+File: src/com/android/settings/deviceinfo/StorageSettings.java
+
+133:27-133:45
+Thu Nov 05 17:49:23 2015 +0000
+Author: Jeff Sharkey <1013508@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 568ea242_68459f97
+Bytes: 117
+Why do we need this method?  We actually do want to refresh to show the user the "Ejecting..." status in the UI, etc.
+
+File: src/com/android/settings/deviceinfo/StorageVolumePreference.java
+
+70:21-70:27
+Thu Nov 05 17:49:23 2015 +0000
+Author: Jeff Sharkey <1013508@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: d69a9277_41535cbf
+Bytes: 20
+This looks OK to me.
+
