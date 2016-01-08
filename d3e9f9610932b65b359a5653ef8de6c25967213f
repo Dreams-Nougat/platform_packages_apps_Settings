@@ -48,6 +48,18 @@ So "32768" means "Off"? Wouldn't it be better to define it as a constant then so
 
   currentValue = LOG_SIZE_VALUE_OFF;
 
+1310
+Fri Jan 08 21:57:05 2016 +0000
+Author: Mark Salyzyn <1032276@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: ca6827a1_dcfa61db
+UUID: 4a74377b_5893c17e
+Bytes: 359
+SELECT_LOGD_OFF_SIZE_MARKER_VALUE
+
+is what I chose (SELECT_LOGD to associate it with this code, OFF to tell me what it means, and SIZE to tell me what units it is describing, MARKER to tell me it is a marker and not to be repeated in the legitimate set, and VALUE to tell me it is).
+
+I could be convinced to change MARKER to UNIQUE if you twist my rubber arm.
+
 1333:16-1333:21
 Fri Jan 08 18:23:51 2016 +0000
 Author: William Luh <1020966@85c56323-6fa9-3386-8a01-6480fb634889>
