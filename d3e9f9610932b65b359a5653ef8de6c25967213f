@@ -9,3 +9,11 @@ UUID: 4a74377b_15267492
 Bytes: 48
 Probably easier to use the String.replace method
 
+1333:16-1333:21
+Fri Jan 08 19:46:36 2016 +0000
+Author: Mark Salyzyn <1032276@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 4a74377b_15267492
+UUID: ca6827a1_19db0b73
+Bytes: 139
+Thanks, Java readability in reviewer just taught me something! This totally changes the form of this area of code to something far simpler.
+
