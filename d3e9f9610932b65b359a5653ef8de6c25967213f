@@ -2,6 +2,22 @@ Revision: d3e9f9610932b65b359a5653ef8de6c25967213f
 Patch-set: 1
 File: src/com/android/settings/DevelopmentSettings.java
 
+1280
+Fri Jan 08 20:59:37 2016 +0000
+Author: Todd Kjos <1069543@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 6a901bcb_e14860b7
+Bytes: 254
+If it is just a marker, can it be a better marker, like "use_default" or something that doesn't imply a valid size?
+
+Or how about having a constant for the default value instead of hardcoding "65536" below? Then you could just set the default value here.
+
+1310
+Fri Jan 08 20:59:37 2016 +0000
+Author: Todd Kjos <1069543@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 6a79fb72_79cde386
+Bytes: 47
+Is the marker checked anywhere? What is it for?
+
 1333:16-1333:21
 Fri Jan 08 18:23:51 2016 +0000
 Author: William Luh <1020966@85c56323-6fa9-3386-8a01-6480fb634889>
