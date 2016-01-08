@@ -60,6 +60,16 @@ is what I chose (SELECT_LOGD to associate it with this code, OFF to tell me what
 
 I could be convinced to change MARKER to UNIQUE if you twist my rubber arm.
 
+1310
+Fri Jan 08 22:06:07 2016 +0000
+Author: Todd Kjos <1069543@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 4a74377b_5893c17e
+UUID: 2a9aa3ee_621a925d
+Bytes: 167
+I just don't like "32768" being magical and requiring comments to tell me so. I vote for getting rid of this comment and using a constant above to set "32768".
+
+Twist.
+
 1333:16-1333:21
 Fri Jan 08 18:23:51 2016 +0000
 Author: William Luh <1020966@85c56323-6fa9-3386-8a01-6480fb634889>
