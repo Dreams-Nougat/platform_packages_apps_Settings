@@ -21,6 +21,14 @@ I rationalized this with the following thoughts.
 
 This marker is in a series of translatable strings. We are setting policy here that the smallest log buffer size we will set is 65536. Problem is I would be tempted to use it above in defaultLogdSizeValue which is a separate policy that is written to match what logd actually has built-in. Abstracting them into values above (1000 lines above no less) bothers me, I feel like I want these close at hand.
 
+1280
+Fri Jan 08 22:32:57 2016 +0000
+Author: Todd Kjos <1069543@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: ca6827a1_fc472531
+UUID: 0a95dfbc_c1efe668
+Bytes: 77
+Sorry, I was looking at the old PS where these comments live. Looks good now.
+
 1310
 Fri Jan 08 20:59:37 2016 +0000
 Author: Todd Kjos <1069543@85c56323-6fa9-3386-8a01-6480fb634889>
