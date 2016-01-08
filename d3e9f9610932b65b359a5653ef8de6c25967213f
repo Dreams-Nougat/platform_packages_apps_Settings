@@ -38,6 +38,16 @@ Marker is checked  on line 1300 and reset in line 1264. It is part of the set of
 
 There are two lists that are being checked, one is the values (which 32768 is a member of) and the other is the titles (which "Off", "64K" to "16M" are a member of).
 
+1310
+Fri Jan 08 21:50:55 2016 +0000
+Author: Todd Kjos <1069543@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 8a62afbe_bacccd42
+UUID: ca6827a1_dcfa61db
+Bytes: 160
+So "32768" means "Off"? Wouldn't it be better to define it as a constant then so in the code (eg line 1280) it looks like:
+
+  currentValue = LOG_SIZE_VALUE_OFF;
+
 1333:16-1333:21
 Fri Jan 08 18:23:51 2016 +0000
 Author: William Luh <1020966@85c56323-6fa9-3386-8a01-6480fb634889>
