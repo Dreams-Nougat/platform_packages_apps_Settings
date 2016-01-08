@@ -1,0 +1,11 @@
+Revision: d3e9f9610932b65b359a5653ef8de6c25967213f
+Patch-set: 1
+File: src/com/android/settings/DevelopmentSettings.java
+
+1333:16-1333:21
+Fri Jan 08 18:23:51 2016 +0000
+Author: William Luh <1020966@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 4a74377b_15267492
+Bytes: 48
+Probably easier to use the String.replace method
+
