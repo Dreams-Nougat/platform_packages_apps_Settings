@@ -1,0 +1,34 @@
+Revision: 25072b1c0d248a876410d5f7ff00b34fc2e00114
+Patch-set: 1
+File: src/com/android/settings/WallpaperTypeSettings.java
+
+70:8-70:12
+Wed Jan 13 20:05:46 2016 +0000
+Author: Sunny Goyal <1060398@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 07623a24_68ae47bd
+Bytes: 187
+use set instead of list?
+
+Another approach where this can be achieved in a single for-loop below is by using a HashMap<CharSequence, Preference> and reset the title  of an existing entry.
+
+98:45-98:63
+Wed Jan 13 20:05:46 2016 +0000
+Author: Sunny Goyal <1060398@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 07623a24_a8e05f26
+Bytes: 35
+You xml strings for such formatting
+
+99:16-99:43
+Wed Jan 13 20:05:46 2016 +0000
+Author: Sunny Goyal <1060398@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 87562a44_20e62b02
+Bytes: 31
+move this outside if condition?
+
+105:7-111:80
+Wed Jan 13 20:05:46 2016 +0000
+Author: Sunny Goyal <1060398@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 678e9643_fd679362
+Bytes: 54
+directly use resolveInfo.activityInfo.applicationInfo?
+
