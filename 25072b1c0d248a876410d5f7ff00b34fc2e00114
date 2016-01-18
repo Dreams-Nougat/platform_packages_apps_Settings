@@ -11,12 +11,28 @@ use set instead of list?
 
 Another approach where this can be achieved in a single for-loop below is by using a HashMap<CharSequence, Preference> and reset the title  of an existing entry.
 
+70:8-70:12
+Mon Jan 18 22:22:28 2016 +0000
+Author: Dave Kessler <1020405@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 07623a24_68ae47bd
+UUID: e7c1a66d_63299058
+Bytes: 273
+the List interface is faster to add to and iterate over than Set because Set still has to check for pre-existing objects when adding so I didn't see any advantage to using either interface specifically.  I just used List by default because the imports were already present.
+
 98:45-98:63
 Wed Jan 13 20:05:46 2016 +0000
 Author: Sunny Goyal <1060398@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 07623a24_a8e05f26
 Bytes: 35
 You xml strings for such formatting
+
+98:45-98:63
+Mon Jan 18 22:22:28 2016 +0000
+Author: Dave Kessler <1020405@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 07623a24_a8e05f26
+UUID: e7c1a66d_43368cbc
+Bytes: 88
+Would you like this string to have xliff formatting or will "$1%s ($2%s)" be sufficient?
 
 99:16-99:43
 Wed Jan 13 20:05:46 2016 +0000
