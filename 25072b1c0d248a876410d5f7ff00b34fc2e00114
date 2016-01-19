@@ -19,6 +19,14 @@ UUID: e7c1a66d_63299058
 Bytes: 273
 the List interface is faster to add to and iterate over than Set because Set still has to check for pre-existing objects when adding so I didn't see any advantage to using either interface specifically.  I just used List by default because the imports were already present.
 
+70:8-70:12
+Tue Jan 19 18:28:16 2016 +0000
+Author: Sunny Goyal <1060398@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: e7c1a66d_63299058
+UUID: 676db610_8b50ecb8
+Bytes: 70
+How about using a HashMap<CharSequence, Preference> and a single loop?
+
 98:45-98:63
 Wed Jan 13 20:05:46 2016 +0000
 Author: Sunny Goyal <1060398@85c56323-6fa9-3386-8a01-6480fb634889>
