@@ -1,0 +1,23 @@
+Revision: d5cd64e9d60c8747ceb65a9fa82396a2482f98dc
+Patch-set: 4
+File: res/values/strings.xml
+
+2022:0-2022:75
+Tue Jan 19 18:28:16 2016 +0000
+Author: Sunny Goyal <1060398@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 2752dead_26eff76a
+Bytes: 266
+Provide id and example for both formatting strings like:
+<xliff:g id="activity_name" example="Wallpapers">%1$s</xliff:g> (<xliff:g id="app_name" example="My wallpaper app">%2$s</xliff:g>)
+
+That would help translators identify whats the difference between %1$s & %2$s
+
+File: src/com/android/settings/WallpaperTypeSettings.java
+
+102:31-102:55
+Tue Jan 19 18:28:16 2016 +0000
+Author: Sunny Goyal <1060398@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 87562a44_d8e2b7bd
+Bytes: 156
+I don't think this condition is necessary. This could also lead to one activity name getting formatted and another with the same name not getting formatted.
+
