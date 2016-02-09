@@ -1,0 +1,11 @@
+Revision: bbf4f66143d1b61ee8de10f0cf796b5f58a91c19
+Patch-set: 2
+File: src/com/android/settings/DevelopmentSettings.java
+
+174:55-174:68
+Tue Feb 09 01:27:23 2016 +0000
+Author: Pavlin Radoslavov <1071489@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: dd48f8a2_a1efdaa1
+Bytes: 79
+Can this be renamed to something more readable, e.g., disable_absolute_volume ?
+
