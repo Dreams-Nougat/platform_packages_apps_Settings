@@ -9,3 +9,13 @@ UUID: a29de171_6584eecd
 Bytes: 158
 This needs to be true or you need a CL for each of the devices in AOSP that support charging sounds, otherwise this will cause a regression for those devices.
 
+19
+Tue Feb 23 23:15:13 2016 +0000
+Author: Hidenari Koshimae <1022419@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: a29de171_6584eecd
+UUID: a21241d6_6c46339d
+Bytes: 109
+Thanks for your review and comment.
+
+I agree. I'll upload new patch set soon to change default value to true.
+
