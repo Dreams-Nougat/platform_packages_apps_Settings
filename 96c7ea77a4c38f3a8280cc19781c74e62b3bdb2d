@@ -1,0 +1,11 @@
+Revision: 96c7ea77a4c38f3a8280cc19781c74e62b3bdb2d
+Patch-set: 1
+File: res/values/bools.xml
+
+19
+Tue Feb 23 14:02:53 2016 +0000
+Author: Jason Monk <1042886@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: a29de171_6584eecd
+Bytes: 158
+This needs to be true or you need a CL for each of the devices in AOSP that support charging sounds, otherwise this will cause a regression for those devices.
+
