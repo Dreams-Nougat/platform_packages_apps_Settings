@@ -1,0 +1,11 @@
+Revision: 7a40e134bcdabf9e29cd4bac9dda549ac14fdc00
+Patch-set: 1
+File: res/layout/radio_with_summary.xml
+
+44
+Mon Apr 04 13:14:42 2016 +0000
+Author: Jason Monk <1042886@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 0efc1c7c_ac1ea346
+Bytes: 62
+Should this just be applied to the whole LinearLayout instead?
+
