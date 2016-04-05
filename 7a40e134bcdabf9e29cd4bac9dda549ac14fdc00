@@ -9,3 +9,11 @@ UUID: 0efc1c7c_ac1ea346
 Bytes: 62
 Should this just be applied to the whole LinearLayout instead?
 
+44
+Tue Apr 05 03:03:51 2016 +0000
+Author: Yoshinori Hirano <1077031@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 0efc1c7c_ac1ea346
+UUID: ce2764f3_8a1bcb56
+Bytes: 56
+Yes, it is better to apply it to the whole LinearLayout.
+
