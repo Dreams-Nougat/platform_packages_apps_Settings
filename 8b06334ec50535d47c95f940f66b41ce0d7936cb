@@ -1,0 +1,17 @@
+Revision: 8b06334ec50535d47c95f940f66b41ce0d7936cb
+Patch-set: 1
+File: src/com/android/settings/ApnSettings.java
+
+497:12-497:70
+Mon Apr 18 23:18:59 2016 +0000
+Author: Amit Mahajan <1054648@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 2868f801_384e656d
+Bytes: 322
+I think changing this to the following is a better change. You can get rid of all other changes above. Let me know what you think.
+
+ProgressDialog dialog = new ProgressDialog(getActivity()) {
+                public boolean onTouchEvent(MotionEvent event) {
+                    return true;
+                }
+            };
+
