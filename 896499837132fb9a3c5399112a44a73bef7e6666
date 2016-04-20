@@ -1,0 +1,11 @@
+Revision: 896499837132fb9a3c5399112a44a73bef7e6666
+Patch-set: 2
+File: src/com/android/settings/ApnSettings.java
+
+454
+Wed Apr 20 18:14:46 2016 +0000
+Author: Amit Mahajan <1054648@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: c86bdc68_933086e2
+Bytes: 38
+Please get rid of this change as well.
+
