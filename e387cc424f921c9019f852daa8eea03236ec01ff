@@ -1,0 +1,11 @@
+Revision: e387cc424f921c9019f852daa8eea03236ec01ff
+Patch-set: 2
+File: src/com/android/settings/ApnSettings.java
+
+435:16-435:25
+Thu May 12 18:39:35 2016 +0000
+Author: Amit Mahajan <1054648@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: d26d50b5_dc37bceb
+Bytes: 52
+Rename this to getUriWithSubId or getUriForCurrSubId
+
