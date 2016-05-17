@@ -1,0 +1,48 @@
+Revision: 9807b111b4cf9ee2c2c2697ff8f52b5913419270
+Patch-set: 1
+File: src/com/android/settings/bluetooth/BluetoothDevicePreference.java
+
+65:7-65:29
+Tue May 17 17:50:09 2016 +0000
+Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: f7cfa645_6ff24d80
+Bytes: 54
+likely don't need this, see note on mBluetoothReceiver
+
+67:3-67:44
+Tue May 17 17:50:09 2016 +0000
+Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: f7cfa645_0f84e9e5
+Bytes: 16
+unneeded, remove
+
+218:29-218:38
+Tue May 17 17:50:09 2016 +0000
+Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: f7cfa645_2f10c596
+Bytes: 35
+Use DialogInterface.BUTTON_POSITIVE
+
+300:24-300:32
+Tue May 17 17:50:09 2016 +0000
+Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: f7cfa645_4fed119f
+Bytes: 208
+you can use |context| here and not have to store the context in mContext.  unregistering this receiver in the mDisconnectDialog dismissal should also always work and not require a member variable for context.
+
+File: src/com/android/settings/bluetooth/DeviceProfilesSettings.java
+
+294:41-294:57
+Tue May 17 17:50:09 2016 +0000
+Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: f7cfa645_6f9b2d26
+Bytes: 15
+nit: whitespace
+
+294:29-294:38
+Tue May 17 17:50:09 2016 +0000
+Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: f7cfa645_8ffa194f
+Bytes: 49
+use DialogInterface.BUTTON_POSITIVE instead here.
+
