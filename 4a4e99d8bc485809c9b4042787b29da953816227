@@ -1,0 +1,11 @@
+Revision: 4a4e99d8bc485809c9b4042787b29da953816227
+Patch-set: 2
+File: src/com/android/settings/ApnEditor.java
+
+777:0-777:142
+Tue May 24 16:19:23 2016 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: bc47d366_a2582b4a
+Bytes: 81
+line is too long - please split this and indent the wrapped line 8 extra spaces..
+
