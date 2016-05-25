@@ -1,0 +1,11 @@
+Revision: 376efdbae8225c6cb4a6213f4717b757108d8370
+Patch-set: 2
+File: src/com/android/settings/TetherSettings.java
+
+187:0-187:26
+Wed May 25 18:47:26 2016 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 9c0f6fb1_13447639
+Bytes: 45
+I think you should call the super class last.
+
