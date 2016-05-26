@@ -1,0 +1,11 @@
+Revision: a13e491308a9ac3185344cc0b9ecc8d9473cc014
+Patch-set: 3
+File: src/com/android/settings/TetherSettings.java
+
+189:60-189:73
+Thu May 26 02:41:00 2016 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 9c0f6fb1_87d7f9d3
+Bytes: 60
+should we only call this if mBluetoothPan.get() is non-null?
+
