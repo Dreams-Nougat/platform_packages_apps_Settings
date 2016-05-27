@@ -1,0 +1,11 @@
+Revision: 0fba255ab71583acd749eb080da9f32a6ac2642d
+Patch-set: 1
+File: src/com/android/settings/widget/SettingsAppWidgetProvider.java
+
+812:35-812:66
+Fri May 27 16:40:02 2016 +0000
+Author: Tony Mantler <1043718@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 9c0f6fb1_a729d28c
+Bytes: 106
+calling an intent "ACTION" seems a bit terrible, maybe we should just fix the definition of this constant?
+
