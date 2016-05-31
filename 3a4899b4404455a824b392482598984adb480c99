@@ -1,0 +1,17 @@
+Revision: 3a4899b4404455a824b392482598984adb480c99
+Patch-set: 4
+File: src/com/android/settings/TetherSettings.java
+
+190:0-190:36
+Tue May 31 23:54:51 2016 +0000
+Author: Robert Greenwalt <1002609@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 19c63131_51713697
+Bytes: 222
+sorry - I was out of the office the last few days.
+
+What I meant was should this be:
+<whatever class this is> pan = mBluetoothPan.getAndSet(null);
+if (pan != null && adapter != null) {
+    adapter.closeProfileProxy(...);
+}
+
