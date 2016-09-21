@@ -1,0 +1,11 @@
+Revision: 296c5e826b88dc4f17085ac688bb1e5550472d37
+Patch-set: 2
+File: res/values/config.xml
+
+45:24-45:47
+Wed Sep 21 17:42:25 2016 +0000
+Author: Junda Liu <1043929@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: d06d6344_242f52b1
+Bytes: 25
+use carrier config please
+
