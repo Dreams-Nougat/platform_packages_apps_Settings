@@ -34,3 +34,13 @@ UUID: 3cdbff69_eea69f61
 Bytes: 50
 Sorry, I don't understand what you're asking here.
 
+226
+Wed Oct 19 10:06:00 2016 +0000
+Author: Tony Mak <1060841@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 3cdbff69_eea69f61
+UUID: fce08714_aceb0389
+Bytes: 264
+Hmm, I meant we didn't check Keystore.isHardwardBacked before, is it a expected behavior change?
+
+https://cs.corp.google.com/android/packages/apps/Settings/src/com/android/settings/CredentialStorage.java?q=EXTRA_USER_PRIVATE_KEY_NAME+package:%5Eandroid$&dr=C&l=257
+
