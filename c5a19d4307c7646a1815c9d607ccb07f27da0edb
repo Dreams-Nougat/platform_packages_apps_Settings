@@ -1,0 +1,18 @@
+Revision: c5a19d4307c7646a1815c9d607ccb07f27da0edb
+Patch-set: 7
+File: src/com/android/settings/CredentialStorage.java
+
+139
+Wed Oct 19 09:55:55 2016 +0000
+Author: Tony Mak <1060841@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: fce08714_0ccfb73d
+Bytes: 92
+It seems that we did not remove the uid from the bundle previously, any reason we do it now?
+
+226
+Wed Oct 19 09:55:55 2016 +0000
+Author: Tony Mak <1060841@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: fce08714_ac1423b6
+Bytes: 85
+Unlike previously, now software backed encryption still requires keystore, is it WAI?
+
