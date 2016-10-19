@@ -44,3 +44,13 @@ Hmm, I meant we didn't check Keystore.isHardwardBacked before, is it a expected 
 
 https://cs.corp.google.com/android/packages/apps/Settings/src/com/android/settings/CredentialStorage.java?q=EXTRA_USER_PRIVATE_KEY_NAME+package:%5Eandroid$&dr=C&l=257
 
+226
+Wed Oct 19 10:08:38 2016 +0000
+Author: Robin Lee <1045544@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: fce08714_aceb0389
+UUID: dcf663e5_c30f36a1
+Bytes: 201
+I  see. Let me check, my assumption had been isHardwareBacked would be necessary for keystore to be able to store certificates while uninitialized.
+
+I could be completely wrong there, will report back.
+
