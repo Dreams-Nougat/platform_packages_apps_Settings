@@ -9,10 +9,28 @@ UUID: fce08714_0ccfb73d
 Bytes: 92
 It seems that we did not remove the uid from the bundle previously, any reason we do it now?
 
+139
+Wed Oct 19 10:00:53 2016 +0000
+Author: Robin Lee <1045544@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: fce08714_0ccfb73d
+UUID: fce08714_ecf10b7d
+Bytes: 151
+Just for the small chance that someone sends an empty bundle apart from this extra, we can short circuit.
+
+You're right, it's probably not worth doing.
+
 226
 Wed Oct 19 09:55:55 2016 +0000
 Author: Tony Mak <1060841@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: fce08714_ac1423b6
 Bytes: 85
 Unlike previously, now software backed encryption still requires keystore, is it WAI?
+
+226
+Wed Oct 19 10:00:53 2016 +0000
+Author: Robin Lee <1045544@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: fce08714_ac1423b6
+UUID: 3cdbff69_eea69f61
+Bytes: 50
+Sorry, I don't understand what you're asking here.
 
