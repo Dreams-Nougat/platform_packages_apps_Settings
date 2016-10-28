@@ -1,0 +1,11 @@
+Revision: b7f796bf33d6efa741c0fb22ab2c3f9127363181
+Patch-set: 3
+File: src/com/android/settings/RadioInfo.java
+
+1067:18-1067:24
+Fri Oct 28 20:51:22 2016 +0000
+Author: Sanket Padawe <1061212@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 86373a0c_c98049e2
+Bytes: 305
+Instead of using append everywhere, standard way of doing this in Settings is by using getString with format string as parameter. Eg. check string preview_page_indicator_content_description in the same file where you have defined rest of the strings. Or google getString with format string as parameter :)
+
