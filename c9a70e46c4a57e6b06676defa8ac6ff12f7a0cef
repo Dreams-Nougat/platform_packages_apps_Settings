@@ -1,0 +1,11 @@
+Revision: c9a70e46c4a57e6b06676defa8ac6ff12f7a0cef
+Patch-set: 1
+File: src/com/android/settings/RadioInfo.java
+
+1118:36-1118:38
+Fri Oct 28 22:33:16 2016 +0000
+Author: Sanket Padawe <1061212@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 86373a0c_34ddc82a
+Bytes: 39
+extra space here & other similar places
+
