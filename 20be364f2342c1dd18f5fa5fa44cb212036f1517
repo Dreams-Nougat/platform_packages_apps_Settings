@@ -1,0 +1,21 @@
+Revision: 20be364f2342c1dd18f5fa5fa44cb212036f1517
+Patch-set: 4
+File: res/values/strings.xml
+
+90:63-90:64
+Fri Oct 28 22:32:14 2016 +0000
+Author: Sanket Padawe <1061212@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 86373a0c_b46558cd
+Bytes: 82
+you should have xliff for all strings with parameters. (Used by translation team).
+
+File: src/com/android/settings/RadioInfo.java
+
+1092:18-1092:24
+Fri Oct 28 22:32:14 2016 +0000
+Author: Sanket Padawe <1061212@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 86373a0c_d4b61cde
+Bytes: 231
+why not have getString() with multiple string parameters rather than using append ?
+append is bad from string localization(translation team) perspective. They can't translate appended string, they can only translate format strings.
+
