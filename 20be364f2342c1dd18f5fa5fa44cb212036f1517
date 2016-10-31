@@ -19,3 +19,18 @@ Bytes: 231
 why not have getString() with multiple string parameters rather than using append ?
 append is bad from string localization(translation team) perspective. They can't translate appended string, they can only translate format strings.
 
+1092:18-1092:24
+Mon Oct 31 18:20:19 2016 +0000
+Author: nharold <1060151@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 86373a0c_d4b61cde
+UUID: 86373a0c_3d180899
+Bytes: 441
+Each of these lines is distinct from the perspective of someone doing translation. They can be translated independently without any loss of meaning, and at some point the XML becomes ridiculously long and difficult to read, which will get worse when I add the xliff tags.
+
+I'll make the change, but I think you'll see it looks distinctly worse given that the final text is something like:
+
+feature: on/off
+feature: on/off
+feature: on/off
+...
+
