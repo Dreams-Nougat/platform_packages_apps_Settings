@@ -1,0 +1,25 @@
+Revision: 63ab2d5be8b3bd98f38fd9ead1fa9ee0e169ca8c
+Patch-set: 2
+File: src/com/android/settings/RadioInfo.java
+
+1120:37-1120:38
+Wed Nov 02 03:08:55 2016 +0000
+Author: Tyler Gunn <1056478@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 66ba4639_15ebf439
+Bytes: 17
+nit: extra spaces
+
+1184:4-1184:7
+Wed Nov 02 03:08:55 2016 +0000
+Author: Tyler Gunn <1056478@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 66ba4639_b51ca87f
+Bytes: 24
+Indent isn't right here.
+
+1199:4-1199:7
+Wed Nov 02 03:08:55 2016 +0000
+Author: Tyler Gunn <1056478@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 66ba4639_9521a4bd
+Bytes: 24
+Indent isn't right here.
+
