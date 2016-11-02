@@ -1,0 +1,27 @@
+Revision: b8355cb2933722ef88d52259bd505e7cc616f113
+Patch-set: 1
+File: /COMMIT_MSG
+
+9:0-10:22
+Wed Nov 02 14:51:31 2016 +0000
+Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 66ba4639_b895bd8b
+Bytes: 130
+the description of this should be better - why does the BroadcastReceiver need to be registered?  How does that prevent the crash?
+
+13:6-13:12
+Wed Nov 02 14:51:31 2016 +0000
+Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 66ba4639_d8424159
+Bytes: 55
+can you be more specific in how you tested this please?
+
+File: src/com/android/settings/bluetooth/BluetoothPairingDialog.java
+
+133:20-133:26
+Wed Nov 02 14:51:31 2016 +0000
+Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 66ba4639_d894018d
+Bytes: 44
+why can't you just finish() and return here?
+
