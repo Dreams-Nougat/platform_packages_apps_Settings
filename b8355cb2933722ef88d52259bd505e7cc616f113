@@ -49,3 +49,11 @@ UUID: 66ba4639_90c080e6
 Bytes: 350
 finish(); return; will still trigger the crash as onDestroy() tries to unregisterReceiver(mReceiver) which is not registered yet. In the next patch, I will a new flag that tracks whether mReceiver is registered. I could use a try-catch statement, but unregisterReceiver throws multiple IllegalArgument exception and I want to avoid string comparison.
 
+133:20-133:26
+Fri Nov 04 15:08:19 2016 +0000
+Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 66ba4639_90c080e6
+UUID: 8b50234a_58d19d0a
+Bytes: 160
+Will it really? I guess the two lines on lines 105 and 112 are an issue too. Will those cases cause a crash as well?  This other solution seems more reasonable.
+
