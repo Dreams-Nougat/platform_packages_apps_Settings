@@ -2,10 +2,26 @@ Revision: 96c1d2a8674ed54ca2e5e6cfc5e0a83f6de19836
 Patch-set: 3
 File: src/com/android/settings/WirelessSettings.java
 
+263:12-263:44
+Fri Nov 04 18:30:13 2016 +0000
+Author: Sudheer Shanka <1101746@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 8b50234a_a1d7e4d5
+Bytes: 33
+Replace this with mVpnPreference.
+
 426:92-426:103
 Fri Nov 04 16:00:49 2016 +0000
 Author: Fan Zhang <1110928@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 8b50234a_db7007fa
 Bytes: 17
 wrap to next line
+
+File: src/com/android/settings/vpn2/VpnSettings.java
+
+176:12-179:13
+Fri Nov 04 18:30:13 2016 +0000
+Author: Sudheer Shanka <1101746@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 8b50234a_21ec74b2
+Bytes: 85
+I don't think we need this. Vpns will be added when the RESCAN_MESSAGE is sent below.
 
