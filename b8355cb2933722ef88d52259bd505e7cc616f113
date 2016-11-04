@@ -9,12 +9,28 @@ UUID: 66ba4639_b895bd8b
 Bytes: 130
 the description of this should be better - why does the BroadcastReceiver need to be registered?  How does that prevent the crash?
 
+9:0-10:22
+Fri Nov 04 01:53:15 2016 +0000
+Author: Jack He <1121403@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 66ba4639_b895bd8b
+UUID: 66ba4639_f0f90c14
+Bytes: 4
+Done
+
 13:6-13:12
 Wed Nov 02 14:51:31 2016 +0000
 Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 66ba4639_d8424159
 Bytes: 55
 can you be more specific in how you tested this please?
+
+13:6-13:12
+Fri Nov 04 01:53:15 2016 +0000
+Author: Jack He <1121403@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 66ba4639_d8424159
+UUID: 66ba4639_d0fe88f9
+Bytes: 4
+Done
 
 File: src/com/android/settings/bluetooth/BluetoothPairingDialog.java
 
@@ -24,4 +40,12 @@ Author: Marie Janssen <1073753@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 66ba4639_d894018d
 Bytes: 44
 why can't you just finish() and return here?
+
+133:20-133:26
+Fri Nov 04 01:53:15 2016 +0000
+Author: Jack He <1121403@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 66ba4639_d894018d
+UUID: 66ba4639_90c080e6
+Bytes: 350
+finish(); return; will still trigger the crash as onDestroy() tries to unregisterReceiver(mReceiver) which is not registered yet. In the next patch, I will a new flag that tracks whether mReceiver is registered. I could use a try-catch statement, but unregisterReceiver throws multiple IllegalArgument exception and I want to avoid string comparison.
 
