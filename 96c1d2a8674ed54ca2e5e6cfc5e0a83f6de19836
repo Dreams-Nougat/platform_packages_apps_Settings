@@ -9,12 +9,28 @@ UUID: 8b50234a_a1d7e4d5
 Bytes: 33
 Replace this with mVpnPreference.
 
+263:12-263:44
+Mon Nov 14 07:04:46 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 8b50234a_a1d7e4d5
+UUID: 8bd90310_30c7c8a4
+Bytes: 21
+Thanks. I will do it.
+
 426:92-426:103
 Fri Nov 04 16:00:49 2016 +0000
 Author: Fan Zhang <1110928@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 8b50234a_db7007fa
 Bytes: 17
 wrap to next line
+
+426:92-426:103
+Mon Nov 14 07:04:46 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 8b50234a_db7007fa
+UUID: 8bd90310_d0cbdcaa
+Bytes: 21
+Thanks. I will do it.
 
 File: src/com/android/settings/vpn2/VpnSettings.java
 
@@ -24,4 +40,12 @@ Author: Sudheer Shanka <1101746@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 8b50234a_21ec74b2
 Bytes: 85
 I don't think we need this. Vpns will be added when the RESCAN_MESSAGE is sent below.
+
+176:12-179:13
+Mon Nov 14 07:04:46 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 8b50234a_21ec74b2
+UUID: 8bd90310_9084745c
+Bytes: 120
+Right. but when you try to connect added VPN, you will face "Settings has stopped" dialog. This 'else' will fix the bug.
 

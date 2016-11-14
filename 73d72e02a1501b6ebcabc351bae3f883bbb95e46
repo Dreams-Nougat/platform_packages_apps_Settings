@@ -16,6 +16,22 @@ UUID: 86373a0c_f5e23ae8
 Bytes: 13
 Space after (
 
+362:31-362:64
+Mon Nov 14 07:04:46 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 86373a0c_35c82263
+UUID: 8bd90310_f0d700d5
+Bytes: 22
+Thanks. I will fix it.
+
+362:30-362:31
+Mon Nov 14 07:04:46 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 86373a0c_f5e23ae8
+UUID: 8bd90310_90d474d2
+Bytes: 20
+Thanks I will fix it
+
 363:9-363:12
 Mon Oct 31 17:25:04 2016 +0000
 Author: Sudheer Shanka <1101746@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -23,12 +39,28 @@ UUID: 86373a0c_55c32648
 Bytes: 36
 Here indentation should be 8 spaces.
 
+363:9-363:12
+Mon Nov 14 07:04:46 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 86373a0c_55c32648
+UUID: 8bd90310_b0d178e1
+Bytes: 25
+Thanks I will fix it too.
+
 475
 Mon Oct 31 17:24:28 2016 +0000
 Author: Fan Zhang <1110928@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 86373a0c_aa15f021
 Bytes: 48
 you need to disable VPN setting in here as well.
+
+475
+Mon Nov 14 07:04:46 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 86373a0c_aa15f021
+UUID: 8bd90310_7045508b
+Bytes: 23
+Thanks I will add code.
 
 File: src/com/android/settings/vpn2/VpnSettings.java
 
@@ -38,4 +70,12 @@ Author: Sudheer Shanka <1101746@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 86373a0c_eafed8be
 Bytes: 119
 Has this been tested? Looks like if the original preferences needs to be restored, then mUnavailable has to be updated.
+
+175:12-178:13
+Mon Nov 14 07:04:46 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 86373a0c_eafed8be
+UUID: 8bd90310_104ac49a
+Bytes: 73
+Thanks. You are right. I will add code to update mUnavailble at onResume.
 
