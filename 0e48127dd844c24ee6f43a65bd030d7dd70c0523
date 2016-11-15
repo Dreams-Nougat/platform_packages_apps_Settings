@@ -1,0 +1,13 @@
+Revision: 0e48127dd844c24ee6f43a65bd030d7dd70c0523
+Patch-set: 3
+File: src/com/android/settings/deviceinfo/PublicVolumeSettings.java
+
+133
+Tue Nov 15 21:38:02 2016 +0000
+Author: Daniel Nishi <1109108@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 30b088be_32eee506
+Bytes: 214
+I noticed above that the onCreated finishes the activity as well.
+
+Because the crash this patch will fix exists, I'm guessing that it just doesn't actually finish the activity when the onCreated tries to finish it?
+
