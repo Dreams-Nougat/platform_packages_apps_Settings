@@ -11,3 +11,11 @@ I noticed above that the onCreated finishes the activity as well.
 
 Because the crash this patch will fix exists, I'm guessing that it just doesn't actually finish the activity when the onCreated tries to finish it?
 
+133
+Wed Nov 16 08:14:50 2016 +0000
+Author: Johan Redestig <1002951@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 30b088be_32eee506
+UUID: d0600c1e_f6035e72
+Bytes: 356
+This class, PublicVolumeSettings, is a Fragment and its lifecycle is just vaguely related to the Activity. The Fragment/FragmentManager will still call into onActivityCreated regardless of if we called finish in onCreate. Calling finish at this point partly to follow the same pattern and partly to handle the case if volume turned invalid in the meantime.
+
