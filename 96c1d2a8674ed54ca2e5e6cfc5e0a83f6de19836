@@ -49,3 +49,11 @@ UUID: 8bd90310_9084745c
 Bytes: 120
 Right. but when you try to connect added VPN, you will face "Settings has stopped" dialog. This 'else' will fix the bug.
 
+176:12-179:13
+Wed Nov 23 20:11:17 2016 +0000
+Author: Sudheer Shanka <1101746@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 8bd90310_9084745c
+UUID: 4df48341_c5134e0e
+Bytes: 124
+I tried this patch without this code block and didn't encounter any crash dialog. would you mind pasting the crash log here?
+
