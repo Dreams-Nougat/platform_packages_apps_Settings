@@ -1,0 +1,13 @@
+Revision: 89a055aa9d04bf81b10e793c638a5b26291d9ee7
+Base-for-patch-set: 1
+File: src/com/android/settings/sim/SimSettings.java
+
+257:19-257:40
+Wed Nov 23 18:35:40 2016 +0000
+Author: Fan Zhang <1110928@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 4df48341_ffb7ffd7
+Bytes: 246
+onPreferenceTreeClick is not deprecated in API 11, it's added in API 11.
+
+https://developer.android.com/reference/android/preference/PreferenceFragment.html#onPreferenceTreeClick(android.preference.PreferenceScreen, android.preference.Preference)
+
