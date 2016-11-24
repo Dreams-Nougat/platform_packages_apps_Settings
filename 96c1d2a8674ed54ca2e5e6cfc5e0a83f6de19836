@@ -57,3 +57,11 @@ UUID: 4df48341_c5134e0e
 Bytes: 124
 I tried this patch without this code block and didn't encounter any crash dialog. would you mind pasting the crash log here?
 
+176:12-179:13
+Thu Nov 24 11:46:26 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 4df48341_c5134e0e
+UUID: ed1b7768_944d8489
+Bytes: 55
+Thanks for your check. I will share the crash log soon.
+
