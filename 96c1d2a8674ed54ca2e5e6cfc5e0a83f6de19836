@@ -65,3 +65,11 @@ UUID: ed1b7768_944d8489
 Bytes: 55
 Thanks for your check. I will share the crash log soon.
 
+176:12-179:13
+Tue Nov 29 00:49:51 2016 +0000
+Author: Sudheer Shanka <1101746@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: ed1b7768_944d8489
+UUID: 702a0062_0241de56
+Bytes: 302
+I don't think this block will prevent that crash. The only way I can think of how that crash can occur is the connect dialog is shown to the user and then the admin sets the policy. Ideally we should start showAdminSupportDetailsDialog activity in this scenario when the user clicks the connect option.
+
