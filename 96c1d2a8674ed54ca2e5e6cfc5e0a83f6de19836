@@ -73,3 +73,13 @@ UUID: 702a0062_0241de56
 Bytes: 302
 I don't think this block will prevent that crash. The only way I can think of how that crash can occur is the connect dialog is shown to the user and then the admin sets the policy. Ideally we should start showAdminSupportDetailsDialog activity in this scenario when the user clicks the connect option.
 
+176:12-179:13
+Wed Nov 30 11:33:25 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: ed1b7768_944d8489
+UUID: ed1b7768_5496cc9d
+Bytes: 626
+First of all I shared the crash log I saw. And I think I understand what you said. This 'else' is not related with the crash I shared. I'm sorry.
+
+This 'else' will recover VpnSettings from 'VPN disallowed message' when the user has canceled 'disallow configuring VPN policy'. When you 'enter VPNSettings > set disallow configuring VPN > enter the VPN settings via onResume' with this commit, you will see that VPN is disallowed message. After that, if you 'cancel disallow configuring VPN policy > enter the VPNSettings via onResume' you will not see VPN disallowed message no more because this 'else' adds removed preference.
+
