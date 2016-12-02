@@ -1,0 +1,11 @@
+Revision: 1afcd443b351c704474522596990ce14404c6220
+Patch-set: 4
+File: /COMMIT_MSG
+
+7:58-7:75
+Fri Dec 02 02:43:09 2016 +0000
+Author: Sudheer Shanka <1101746@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 2d6e6f0e_c4d93c43
+Bytes: 111
+Could you remove "Android for Work" from commit message, just saying disallow configuring VPN policy is enough.
+

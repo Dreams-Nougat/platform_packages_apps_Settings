@@ -83,3 +83,11 @@ First of all I shared the crash log I saw. And I think I understand what you sai
 
 This 'else' will recover VpnSettings from 'VPN disallowed message' when the user has canceled 'disallow configuring VPN policy'. When you 'enter VPNSettings > set disallow configuring VPN > enter the VPN settings via onResume' with this commit, you will see that VPN is disallowed message. After that, if you 'cancel disallow configuring VPN policy > enter the VPNSettings via onResume' you will not see VPN disallowed message no more because this 'else' adds removed preference.
 
+176:12-179:13
+Fri Dec 02 02:43:09 2016 +0000
+Author: Sudheer Shanka <1101746@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: ed1b7768_5496cc9d
+UUID: 2d6e6f0e_8420e463
+Bytes: 158
+I see, in that case could you replace this block with 'setEmptyView(getEmptyTextView())' instead. This would trigger an update as well but with less overhead.
+
