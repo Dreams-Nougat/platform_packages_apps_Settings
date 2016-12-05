@@ -91,3 +91,11 @@ UUID: 2d6e6f0e_8420e463
 Bytes: 158
 I see, in that case could you replace this block with 'setEmptyView(getEmptyTextView())' instead. This would trigger an update as well but with less overhead.
 
+176:12-179:13
+Mon Dec 05 06:32:40 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 2d6e6f0e_8420e463
+UUID: 8d9e7b7b_61a99658
+Bytes: 40
+Thanks for your guide. I will modify it.
+

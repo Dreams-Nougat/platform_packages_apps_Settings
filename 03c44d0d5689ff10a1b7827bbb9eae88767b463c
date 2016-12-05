@@ -1,0 +1,12 @@
+Revision: 03c44d0d5689ff10a1b7827bbb9eae88767b463c
+Patch-set: 6
+File: src/com/android/settings/vpn2/VpnSettings.java
+
+176
+Mon Dec 05 06:32:40 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 8d9e7b7b_01e1aab6
+Bytes: 277
+Dear Sudheer Shanka,
+Thanks again for your guide. I uploaded patchset#5 as your guide. By the way, if you don't mind, would you please let me how your guide restores removed preference by VpnSettings.java line 173 once after disallow configuring VPN policy has canceled kindly?
+
