@@ -1,0 +1,13 @@
+Revision: db910257e272b79ea9e4f4b2edb9d72c42862de8
+Patch-set: 3
+File: src/com/android/settings/applications/ProcessStatsSummary.java
+
+116:64-116:90
+Wed Dec 07 18:37:58 2016 +0000
+Author: jungjw <1060667@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: cd4b13fc_0ef52ed4
+Bytes: 408
+Thanks for finding this issue. So, it seems like app_list_memory_use is actually the correct resource to use in this place. It's just it has an incorrect string. Instead of replacing the string resource used here, could you update the string content of app_list_memory_use in strings.xml?
+
+FYI, memory_usage_apps is specifically for the menu button, so I don't think it's a good idea to use it as a UI title.
+
