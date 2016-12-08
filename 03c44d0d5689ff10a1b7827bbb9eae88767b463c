@@ -10,3 +10,11 @@ Bytes: 277
 Dear Sudheer Shanka,
 Thanks again for your guide. I uploaded patchset#5 as your guide. By the way, if you don't mind, would you please let me how your guide restores removed preference by VpnSettings.java line 173 once after disallow configuring VPN policy has canceled kindly?
 
+176
+Thu Dec 08 07:45:50 2016 +0000
+Author: Sudheer Shanka <1101746@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 8d9e7b7b_01e1aab6
+UUID: cd4b13fc_82d90a87
+Bytes: 207
+This won't restore preferences, it will only update the "disabled by admin" message to "no vpns added" message in case there are no vpns. If there any vpns, they will be added when RESCAN_MESSAGE is handled.
+
