@@ -1,0 +1,40 @@
+Revision: 6b418f61282e1ca3ac0ca6c77c7b3e9d5e0ff3fc
+Patch-set: 2
+File: src/com/android/settings/datausage/DataUsageMeteredSettings.java
+
+159:20-159:67
+Thu Dec 08 23:57:08 2016 +0000
+Author: Lorenzo Colitti <1000835@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: cd6cf3ba_f3c67037
+Bytes: 66
+Can this ever happen? I thought this UI only showed wifi networks.
+
+165:54-165:82
+Thu Dec 08 23:57:08 2016 +0000
+Author: Lorenzo Colitti <1000835@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: cd6cf3ba_33a9c859
+Bytes: 20
+You don't need this.
+
+166:28-166:46
+Thu Dec 08 23:57:08 2016 +0000
+Author: Lorenzo Colitti <1000835@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: cd6cf3ba_53b644bc
+Bytes: 193
+Suggest replacing this check by doing:
+
+    Stiring networkId = mTemplate.getNetworkId();
+    if (networkId == null) {
+        return;
+    }
+    List<WifiConfiguration> wifiConfigurations = ...
+
+169:20-169:78
+Thu Dec 08 23:57:08 2016 +0000
+Author: Lorenzo Colitti <1000835@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: cd6cf3ba_13accc68
+Bytes: 67
+Suggest:
+
+    for (WifiConfiguration config : wifiConfigurations) {
+
