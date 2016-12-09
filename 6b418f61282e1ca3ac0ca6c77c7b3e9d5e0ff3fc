@@ -9,12 +9,28 @@ UUID: cd6cf3ba_f3c67037
 Bytes: 66
 Can this ever happen? I thought this UI only showed wifi networks.
 
+159:20-159:67
+Fri Dec 09 00:23:09 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: cd6cf3ba_f3c67037
+UUID: 1a23a39f_78909d2d
+Bytes: 116
+Technically this UI doesn't but there is a SHOW_MOBILE_CATEGORY flag in this class that when enabled shows cellular.
+
 165:54-165:82
 Thu Dec 08 23:57:08 2016 +0000
 Author: Lorenzo Colitti <1000835@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: cd6cf3ba_33a9c859
 Bytes: 20
 You don't need this.
+
+165:54-165:82
+Fri Dec 09 00:23:09 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: cd6cf3ba_33a9c859
+UUID: 1a23a39f_f8aeed64
+Bytes: 4
+Done
 
 166:28-166:46
 Thu Dec 08 23:57:08 2016 +0000
@@ -29,6 +45,14 @@ Suggest replacing this check by doing:
     }
     List<WifiConfiguration> wifiConfigurations = ...
 
+166:28-166:46
+Fri Dec 09 00:23:09 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: cd6cf3ba_53b644bc
+UUID: 1a23a39f_989a5947
+Bytes: 4
+Done
+
 169:20-169:78
 Thu Dec 08 23:57:08 2016 +0000
 Author: Lorenzo Colitti <1000835@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -37,4 +61,12 @@ Bytes: 67
 Suggest:
 
     for (WifiConfiguration config : wifiConfigurations) {
+
+169:20-169:78
+Fri Dec 09 00:23:09 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: cd6cf3ba_13accc68
+UUID: 1a23a39f_38c5852e
+Bytes: 94
+Was following android best practices to not allocate list iterators (not that it matters much)
 
