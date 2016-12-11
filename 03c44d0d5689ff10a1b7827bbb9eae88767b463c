@@ -18,3 +18,11 @@ UUID: cd4b13fc_82d90a87
 Bytes: 207
 This won't restore preferences, it will only update the "disabled by admin" message to "no vpns added" message in case there are no vpns. If there any vpns, they will be added when RESCAN_MESSAGE is handled.
 
+176
+Sun Dec 11 06:30:46 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: cd4b13fc_82d90a87
+UUID: 8db4bb48_f1d80840
+Bytes: 25
+Ok. Thanks. I understood.
+
