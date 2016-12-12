@@ -9,6 +9,14 @@ UUID: 1a23a39f_ccdc8135
 Bytes: 173
 I would either remove this check or move it to buildWifiPref where you're actually reading the SSID and can verify it's non-null or filter out the broken entry if it's null.
 
+162:0-164:21
+Mon Dec 12 20:47:02 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 1a23a39f_ccdc8135
+UUID: bafff76a_528fd40e
+Bytes: 4
+Done
+
 167:0-169:21
 Mon Dec 12 19:50:38 2016 +0000
 Author: Jeff Davidson <1006780@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -18,6 +26,14 @@ we should complain more loudly if this happens. The UI will just silently succee
 
 Since this code is an external dependency (on mWifiManager), crashing isn't wise, but we should Log.wtf, at least.
 
+167:0-169:21
+Mon Dec 12 20:47:02 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 1a23a39f_4cf071ad
+UUID: bafff76a_b2ae0064
+Bytes: 4
+Done
+
 178
 Mon Dec 12 19:50:38 2016 +0000
 Author: Jeff Davidson <1006780@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -25,10 +41,26 @@ UUID: 1a23a39f_2ced35d8
 Bytes: 53
 Log.wtf if we can't find the configuration to update.
 
+178
+Mon Dec 12 20:47:02 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 1a23a39f_2ced35d8
+UUID: bafff76a_32e210bd
+Bytes: 4
+Done
+
 180
 Mon Dec 12 19:50:38 2016 +0000
 Author: Jeff Davidson <1006780@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 1a23a39f_ccf5a1ab
 Bytes: 182
 complain more loudly. Since this would be a failure internal to this class (as we're responsible for setting mNetworkType internally), I think an IllegalStateException is reasonable.
+
+180
+Mon Dec 12 20:47:02 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 1a23a39f_ccf5a1ab
+UUID: bafff76a_52e194b3
+Bytes: 4
+Done
 
