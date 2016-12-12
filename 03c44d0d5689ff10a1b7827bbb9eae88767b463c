@@ -1,5 +1,14 @@
 Revision: 03c44d0d5689ff10a1b7827bbb9eae88767b463c
 Patch-set: 6
+File: /COMMIT_MSG
+
+16
+Mon Dec 12 19:44:29 2016 +0000
+Author: Fan Zhang <1110928@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 1a23a39f_cc23616f
+Bytes: 23
+Can you add a Bug: <id>
+
 File: src/com/android/settings/vpn2/VpnSettings.java
 
 176
