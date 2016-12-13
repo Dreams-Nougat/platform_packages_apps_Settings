@@ -32,3 +32,11 @@ UUID: bafff76a_2f9f3ef0
 Bytes: 200
 not sure if any changes might be needed here as well? Do we need to stage a backup of wi-fi settings (e.g. is there a different package that handles that)? Might be worth checking with the wi-fi team.
 
+188:0-188:87
+Tue Dec 13 20:02:31 2016 +0000
+Author: Paul Stewart <1077073@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: bafff76a_2f9f3ef0
+UUID: bafff76a_b213951c
+Bytes: 101
+WifiService should take care of backup / restore of settings as a result of the updateNetwork() call.
+
