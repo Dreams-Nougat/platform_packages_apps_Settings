@@ -9,6 +9,14 @@ UUID: bafff76a_0f719af7
 Bytes: 129
 tags have to be <= 23 characters. https://developer.android.com/reference/android/util/Log.html#isLoggable(java.lang.String, int)
 
+54:39-54:63
+Tue Dec 13 20:12:23 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: bafff76a_0f719af7
+UUID: bafff76a_f2aebdc9
+Bytes: 4
+Done
+
 178:0-178:52
 Tue Dec 13 18:42:21 2016 +0000
 Author: Jeff Davidson <1006780@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -18,12 +26,28 @@ foundNetwork should be set to true outside the if statement; we found it regardl
 
 also, we should call "break" here to short-circuit the loop once we've matched on SSID.
 
+178:0-178:52
+Tue Dec 13 20:12:23 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: bafff76a_af8a0eaa
+UUID: bafff76a_b2b4351a
+Bytes: 4
+Done
+
 186:53-186:73
 Tue Dec 13 18:42:21 2016 +0000
 Author: Jeff Davidson <1006780@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: bafff76a_0f887ab1
 Bytes: 27
 nit: "Invalid network type"
+
+186:53-186:73
+Tue Dec 13 20:12:23 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: bafff76a_0f887ab1
+UUID: bafff76a_f2d7dd4d
+Bytes: 4
+Done
 
 188:0-188:87
 Tue Dec 13 18:42:21 2016 +0000
@@ -39,4 +63,12 @@ Parent: bafff76a_2f9f3ef0
 UUID: bafff76a_b213951c
 Bytes: 101
 WifiService should take care of backup / restore of settings as a result of the updateNetwork() call.
+
+188:0-188:87
+Tue Dec 13 20:12:23 2016 +0000
+Author: Stephen Chen <1124150@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: bafff76a_b213951c
+UUID: bafff76a_ad8a16fd
+Bytes: 7
+Removed
 
