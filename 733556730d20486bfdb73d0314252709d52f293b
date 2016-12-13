@@ -1,0 +1,34 @@
+Revision: 733556730d20486bfdb73d0314252709d52f293b
+Patch-set: 4
+File: src/com/android/settings/datausage/DataUsageMeteredSettings.java
+
+54:39-54:63
+Tue Dec 13 18:42:21 2016 +0000
+Author: Jeff Davidson <1006780@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: bafff76a_0f719af7
+Bytes: 129
+tags have to be <= 23 characters. https://developer.android.com/reference/android/util/Log.html#isLoggable(java.lang.String, int)
+
+178:0-178:52
+Tue Dec 13 18:42:21 2016 +0000
+Author: Jeff Davidson <1006780@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: bafff76a_af8a0eaa
+Bytes: 306
+foundNetwork should be set to true outside the if statement; we found it regardless of whether the meteredOverride bit is in sync. (Arguably it's still strange that they'd be out of sync, but probably not wtf worthy).
+
+also, we should call "break" here to short-circuit the loop once we've matched on SSID.
+
+186:53-186:73
+Tue Dec 13 18:42:21 2016 +0000
+Author: Jeff Davidson <1006780@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: bafff76a_0f887ab1
+Bytes: 27
+nit: "Invalid network type"
+
+188:0-188:87
+Tue Dec 13 18:42:21 2016 +0000
+Author: Jeff Davidson <1006780@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: bafff76a_2f9f3ef0
+Bytes: 200
+not sure if any changes might be needed here as well? Do we need to stage a backup of wi-fi settings (e.g. is there a different package that handles that)? Might be worth checking with the wi-fi team.
+
