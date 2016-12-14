@@ -1,0 +1,13 @@
+Revision: ecf3fe2f58b2ee214710f1b8ca5d0d828e671698
+Patch-set: 5
+File: /COMMIT_MSG
+
+14:1-14:13
+Wed Dec 14 02:09:44 2016 +0000
+Author: Fan Zhang <1110928@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 9a895341_3d7047b8
+Bytes: 209
+this bug is duplicated against 29737261. Can you check they are the same bug? I think there is a bit more discussion in bug 29737261.
+
+If the bug is accurate, please add Bug: 29737261 to commit message as well
+
