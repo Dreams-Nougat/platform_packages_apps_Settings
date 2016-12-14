@@ -1,0 +1,11 @@
+Revision: 8c11340b0c0cd40ea1b5ef83299830ae6d8c665b
+Base-for-patch-set: 5
+File: src/com/android/settings/datausage/DataUsageMeteredSettings.java
+
+154:1-155:76
+Wed Dec 14 19:12:18 2016 +0000
+Author: Jeff Davidson <1006780@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 9a895341_72f029e0
+Bytes: 156
+I think you still need this, but only in the TYPE_MOBILE case. Paul's comment was that Wi-FI handles the backup but that only applies to the TYPE_WIFI case.
+
