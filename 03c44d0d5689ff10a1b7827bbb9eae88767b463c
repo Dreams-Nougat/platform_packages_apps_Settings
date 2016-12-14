@@ -9,6 +9,15 @@ UUID: 1a23a39f_cc23616f
 Bytes: 23
 Can you add a Bug: <id>
 
+16
+Wed Dec 14 01:36:34 2016 +0000
+Author: 성민 이 <1076898@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 1a23a39f_cc23616f
+UUID: cd6cf3ba_d665e259
+Bytes: 186
+Dear Fan Zhang,
+Thanks for your comment. I'm willing to change commit message but I don't know about bug ID. Could you do me a favor and let me know what is bug ID? How I can get bug ID?
+
 File: src/com/android/settings/vpn2/VpnSettings.java
 
 176
