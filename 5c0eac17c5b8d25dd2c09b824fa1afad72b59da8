@@ -1,0 +1,18 @@
+Revision: 5c0eac17c5b8d25dd2c09b824fa1afad72b59da8
+Patch-set: 3
+File: src/com/android/settings/search/Index.java
+
+219:8-222:25
+Thu Dec 22 17:23:10 2016 +0000
+Author: Jeremy Joslin <1060801@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 975f6e58_286d7373
+Bytes: 160
+Unrelated to this CL but this code section is not threadsafe. Access to sInstance needs to be synchronized which should be done by using a separate lock object.
+
+230:4-232:5
+Thu Dec 22 17:23:10 2016 +0000
+Author: Jeremy Joslin <1060801@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 975f6e58_6dae5d7f
+Bytes: 178
+Seems like this method can be deleted. The mContext field is initialized to the application context in the ctor so setting it to the application context again doesn't make sense.
+
