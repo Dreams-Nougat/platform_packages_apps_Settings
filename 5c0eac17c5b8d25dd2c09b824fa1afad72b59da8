@@ -2,6 +2,13 @@ Revision: 5c0eac17c5b8d25dd2c09b824fa1afad72b59da8
 Patch-set: 3
 File: src/com/android/settings/search/Index.java
 
+220
+Fri Dec 23 03:04:13 2016 +0000
+Author: Joe LaPenna <1000691@85c56323-6fa9-3386-8a01-6480fb634889>
+UUID: 975f6e58_6d781d67
+Bytes: 142
+Do you want to .getApplicationContext() here to ensure that whether using the constructor or the getter you always upgrade to the app context?
+
 219:8-222:25
 Thu Dec 22 17:23:10 2016 +0000
 Author: Jeremy Joslin <1060801@85c56323-6fa9-3386-8a01-6480fb634889>
