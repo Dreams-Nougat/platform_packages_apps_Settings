@@ -9,6 +9,15 @@ UUID: 975f6e58_6d781d67
 Bytes: 142
 Do you want to .getApplicationContext() here to ensure that whether using the constructor or the getter you always upgrade to the app context?
 
+220
+Fri Dec 23 08:39:21 2016 +0000
+Author: 崇 高 <1133629@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 975f6e58_6d781d67
+UUID: d79ba631_9e6fb916
+Bytes: 167
+I delete setContext() in patch set 4 because mContext field is initialized to application contexnt.
+And add 'synchronized' before getInstance() to ensure  thread safe.
+
 219:8-222:25
 Thu Dec 22 17:23:10 2016 +0000
 Author: Jeremy Joslin <1060801@85c56323-6fa9-3386-8a01-6480fb634889>
@@ -16,10 +25,34 @@ UUID: 975f6e58_286d7373
 Bytes: 160
 Unrelated to this CL but this code section is not threadsafe. Access to sInstance needs to be synchronized which should be done by using a separate lock object.
 
+219:8-222:25
+Fri Dec 23 08:39:21 2016 +0000
+Author: 崇 高 <1133629@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 975f6e58_286d7373
+UUID: d79ba631_1ec3a9f4
+Bytes: 4
+Done
+
 230:4-232:5
 Thu Dec 22 17:23:10 2016 +0000
 Author: Jeremy Joslin <1060801@85c56323-6fa9-3386-8a01-6480fb634889>
 UUID: 975f6e58_6dae5d7f
 Bytes: 178
 Seems like this method can be deleted. The mContext field is initialized to the application context in the ctor so setting it to the application context again doesn't make sense.
+
+230:4-232:5
+Fri Dec 23 08:39:21 2016 +0000
+Author: 崇 高 <1133629@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 975f6e58_6dae5d7f
+UUID: d79ba631_fe4efdde
+Bytes: 41
+yes,I don't find anywhere use this method
+
+230:4-232:5
+Fri Dec 23 08:39:21 2016 +0000
+Author: 崇 高 <1133629@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 975f6e58_6dae5d7f
+UUID: d79ba631_de08e195
+Bytes: 4
+Done
 

@@ -9,6 +9,14 @@ UUID: 573c16f2_7e2568d1
 Bytes: 73
 Is there a bug tracking this? If yes can you add the bug link or id here?
 
+7
+Fri Dec 23 08:39:21 2016 +0000
+Author: 崇 高 <1133629@85c56323-6fa9-3386-8a01-6480fb634889>
+Parent: 573c16f2_7e2568d1
+UUID: d79ba631_7be2ffed
+Bytes: 80
+There is no bug tracking this.I found this leak when we run a automated testing.
+
 File: src/com/android/settings/search/Index.java
 
 225
